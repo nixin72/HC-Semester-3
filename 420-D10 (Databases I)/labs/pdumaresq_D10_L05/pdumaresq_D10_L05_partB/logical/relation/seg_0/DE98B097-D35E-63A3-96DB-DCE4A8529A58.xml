@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="patient and history" directorySegmentName="seg_0" id="DE98B097-D35E-63A3-96DB-DCE4A8529A58">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:21:43 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnTarget>is recorded for </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BE4E29A-4493-63D8-E5E0-54D45D1CF988</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5855FF08-7257-577E-DA7A-C391F0D89716</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

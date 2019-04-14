@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    display: block;
+    color: #af1400;
+}
+
+h3 {
+    display: block;
+    color: black;
+}

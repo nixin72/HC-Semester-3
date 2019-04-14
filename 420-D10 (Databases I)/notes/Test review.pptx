@@ -1,0 +1,69 @@
+====> inheritance
+----> Relationship
+^ XOR
+
+- Review questions about test
+- get onto advanced SQL lecture
+
+What is a concatenated key?
+    - Compound key/composite key/concatenated key are all the same thing.
+    
+An intelligent key vs a suroggate key
+    - An intelligent key is composed of some amount of real world data
+    - A suroggate key is random. 
+    
+    Naturalizing a suroggate key:
+        - Finding patterns in suroggate keys to determine things about the rest of the entity
+        - Was meant to be something arbitrary, but something can be derived from them like a time period when they were made
+        - You can determine a pattern from it. Can be reverse engineered. 
+        - A suroggate key is meant to be yours, something that the DB administrators can mess around with as they want. 
+        - Up to the guy who's building the system
+        
+Deletion policies
+    - If you deleted pet, why would you keep the relating dog record? 
+    - Pet ==> Dog || Pet ==> Cat has a tight coupling, so would probably be cascade.
+    
+    Things that are tightly coupled should probably be cascade
+    Just do it is probably fine on any associtive entities
+    
+    An action can apply in one direction, but doesn't have to another. 
+        ex. Pet ==> dog is cascade, but Dog ==> Pet is restrict
+        
+        
+Specialization
+    - Super type ====> Subtype : Specialization
+    - Subtype ====> Super type : Generalization
+    
+    -Total vs Partial
+        -Total: A super type MUST have a given subtype for each entity
+        -Partial: A super type MAY have a given subtype for each entity
+        
+        
+    Partial Specialization
+    Crew ====> Pilot ---> certification
+    
+    Total
+    Pet =====> Dog ^ Cat
+    
+Normalization
+used to ensure scalability and data integrity
+
+0NF: Not in 1NF
+
+
+1NF: Must be in 0NF and there's no repeat attributes among entities
+Team (Coach, team name, player, player , player, player, etc.) > NOT 1NF, this is 0NF
+becomes
+Team (Coach, team name)
+players (Team name, playername)
+
+2NF: Must be in 1NF and if the non-primary attributes are related to the primary key
+
+
+3NF: Must be in 2NF and you have no attributes in the table that you can get from the foreign key of another table 
+Prof (prof_id, name, dept._name, dept._id)
+becomes
+Prof (Prof._id, prof._name, dept._id) 
+Dept (dept._id, dept._name)
+
+Be able to identify the NF and then convert to 3NF 

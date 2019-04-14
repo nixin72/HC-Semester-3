@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61003834-2A3A-7DB2-56AE-C21339A506EE" name="Office">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:42:32 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OfficeID" id="11BD8A82-51F6-363A-B6E0-750CD832652F">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:58:08 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="5D2030F0-3DE6-3048-B5F6-CEFA743E50BE">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:58:17 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employeeID" id="94B2D2D2-8E21-E809-81EE-F2A372D62E27">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:58:35 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ManagerID" id="73292DAA-C69F-5C03-193E-B3ED74C2DE95">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:58:45 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="propertyID" id="FBDE13D2-EEA8-C9A5-6B36-215C4198E996">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:59:06 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F39E0A4B-06B3-7ACF-98CB-CB0C1D5AC395" name="Office PK">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-13 00:58:15 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L06</ownerDesignName>
+<engineerTo>
+<item key="F09FAB16-F32C-7E4D-A1F8-EEE6CA87F8A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11BD8A82-51F6-363A-B6E0-750CD832652F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

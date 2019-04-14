@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery 5 - Example</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+<form action="" method="get">
+	One: <input type="text" name="aname" /> <br />
+	Two: <input type="text" name="bname" /> <br />
+	Three: <input type="text" name="cname" /> <br />
+	<input type="submit" />
+</form>
+<p>The answer: <span></span> Tah dah!</p>
+<script>
+$("form").submit( function() {
+	if ($("input:first").val() == "admin") {
+		$("span").text("Welcome Mr Admin.").show();
+		return true;
+	}
+
+	$("input:first").css("background-color", "red");
+
+	$("span").text("Not valid!").show().fadeOut(5000);
+
+	return false;
+});
+
+</script>
+
+</body>
+</html>

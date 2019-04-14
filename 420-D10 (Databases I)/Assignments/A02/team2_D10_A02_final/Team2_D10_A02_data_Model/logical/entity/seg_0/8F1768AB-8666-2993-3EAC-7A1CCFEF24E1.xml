@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F1768AB-8666-2993-3EAC-7A1CCFEF24E1" name="Invoice">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-09-21 15:59:38 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Invoice-Number" id="3EA38B45-EA50-4121-9D02-75F0FF5941CF">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:04:38 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date-issued" id="DD0109A4-F4AD-E210-0F70-1E75F966500A">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:04:48 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer-id" id="2E457BFA-A884-0B55-BCB1-277FFDAF3CD7">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:06:47 UTC</createdTime>
+<generatorID>DCF948D7-535F-31BD-FE57-1157D54B9961</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>7CF2B01C-0366-B6F8-38E4-A889F2A4AC3D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AE18871-2FFD-84CB-DD73-BD9BE3EA4484" name="Invoice PK">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:04:47 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EA38B45-EA50-4121-9D02-75F0FF5941CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

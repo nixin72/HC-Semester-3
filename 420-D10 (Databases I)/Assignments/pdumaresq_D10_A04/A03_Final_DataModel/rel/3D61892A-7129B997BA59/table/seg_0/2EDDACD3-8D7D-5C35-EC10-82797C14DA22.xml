@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EDDACD3-8D7D-5C35-EC10-82797C14DA22" name="HVKPET-RESERVATION-SERVICE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>63846EAB-8611-D3F9-D5A3-EC930E3086CC</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkpet_reservation_service</ordsAlias>
+<abbreviation>PRS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_PET_RES_NUMBER" id="F5E0E4CD-5C58-28F7-CDB8-0C1CAF817A74">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>6F838161-CD4B-E96B-943E-35E53292C0E9</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRS_PR_PET_RES_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="38161E47-A450-1B4E-1F6E-9DCA24DD4AD8" referredColumn="42BE6EDC-5F11-8A19-3ECC-261164C6415F"/>
+</associations>
+</Column>
+<Column name="PR_RUN_RUN_NUMBER" id="0A504A0D-3B4B-2D27-2F4B-CA2A8826855D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>376A3592-2226-0047-4219-B4B79063A4A9</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRS_PR_RUN_RUN_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="38161E47-A450-1B4E-1F6E-9DCA24DD4AD8" referredColumn="86134942-5EF7-03C6-B108-14A0FECD2C13"/>
+</associations>
+</Column>
+<Column name="PR_RES_RESERVATION" id="BF0DADA0-D37C-DE96-C960-B6783FE12406">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>16DA8D29-BD3F-80F1-F8FD-3B9DDBE3F388</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRS_PR_RES_RESERVATION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="38161E47-A450-1B4E-1F6E-9DCA24DD4AD8" referredColumn="9D73AEB4-A540-4AF1-8883-31954F1BDDBD"/>
+</associations>
+</Column>
+<Column name="PR_PET_PET-PET_NUMBER" id="9FA79B3B-4B26-B7AF-CEAD-EBC01447C7AA">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>EEA5FCC9-4CAB-B656-B18C-344EF29479E2</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRS_PR_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="38161E47-A450-1B4E-1F6E-9DCA24DD4AD8" referredColumn="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</associations>
+</Column>
+<Column name="SERVICE_FREQUENCY" id="7C7CF998-B7FD-98FC-67FC-86E2C515349D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>64B72ECD-09F5-EA38-631E-AC94CDACD5C1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SER_SERVICE_NUMBER" id="590202F1-A8A3-F7BF-7E20-AE6B9C3E2E4C">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>DC8BE214-E375-96E9-D23D-5871122FB517</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRS_SER_SERVICE_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="FEF7B935-BE19-B9F4-A113-49CB69EB648E" referredColumn="85DAA822-287B-C909-8C14-D75B9E0393CF"/>
+</associations>
+</Column>
+<Column name="TIME_OF_DAY" id="D76CEB26-9016-AB24-7918-4E7427B829A6">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>7303ACD6-0D86-F61E-32B2-A6A7D277A005</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF9EEF6E-341B-0E47-1B75-1B797BF5E010" name="HVKPET-RESERVATION-SERVICE_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>DEFE8B51-7209-DAC9-B4BC-70DDE6202281</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E0E4CD-5C58-28F7-CDB8-0C1CAF817A74"/>
+<colUsage columnID="0A504A0D-3B4B-2D27-2F4B-CA2A8826855D"/>
+<colUsage columnID="BF0DADA0-D37C-DE96-C960-B6783FE12406"/>
+<colUsage columnID="9FA79B3B-4B26-B7AF-CEAD-EBC01447C7AA"/>
+<colUsage columnID="590202F1-A8A3-F7BF-7E20-AE6B9C3E2E4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB06F16A-6D14-FE2D-1749-B9BF9B68B5BB" name="PRS_PR_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B3739DAC-D6AF-F018-DBE9-AB2E4D30C433</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E0E4CD-5C58-28F7-CDB8-0C1CAF817A74"/>
+<colUsage columnID="0A504A0D-3B4B-2D27-2F4B-CA2A8826855D"/>
+<colUsage columnID="BF0DADA0-D37C-DE96-C960-B6783FE12406"/>
+<colUsage columnID="9FA79B3B-4B26-B7AF-CEAD-EBC01447C7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39E1F380-1FF3-F6FC-9440-82DF2DBEC3EA" name="PRS_SER_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>15005AEF-709E-0F4C-ADEE-AE21FFC6941F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="590202F1-A8A3-F7BF-7E20-AE6B9C3E2E4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

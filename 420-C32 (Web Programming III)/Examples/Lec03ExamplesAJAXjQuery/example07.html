@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Easy AJAX</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+<form name='myForm'>
+	<p>Name: <input type='text' id='username' name='username' /><br/>
+	Time: <input type='text' id='time' name='time'/></p>
+</form>
+<script>
+	$(document).ready(function() {
+		$('#username').change( function() {
+			$.ajax({
+				url: "./php/servertime.php",
+				type: "GET",
+				dataType: "text"
+			}).done(function(data) {
+				$('#time').val(data);
+			});
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Library Logical Data Model" id="2A44AE84-6E74-FF27-BF03-6390036AA6F6" version="3.5">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:03:24 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2A44AE84-6E74-FF27-BF03-6390036AA6F6</designId>
+</OSDM_Design>

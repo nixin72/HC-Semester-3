@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FC0AE51-A2F9-A479-E4C5-94BFCD524E17" name="HVKDAILY-RATE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>52906EC0-C050-F504-9F5A-3420351D545D</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkdaily_rate</ordsAlias>
+<abbreviation>DR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SER_SERVICE_NUMBER" id="ED9338F0-3539-627D-3BA0-3792D3588CD2">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CA508106-52DD-0AA6-6680-D8AB62245BCC</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CEDD2FA-AF70-A52E-38B4-04BAE10A630D" referredColumn="85DAA822-287B-C909-8C14-D75B9E0393CF"/>
+</associations>
+</Column>
+<Column name="DAILY_RATE_NUMBER" id="ED0336AC-17DC-F8C3-2ED4-C09C8C9B0455">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>476BF502-98CD-8000-B2C0-5FC640F87213</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DR_DAILY_RATE_NUMBER</notNullConstraintName>
+</Column>
+<Column name="DAILY_RATE" id="9A5696E1-2EC4-1785-AC03-9769DE46613E">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>12B34162-A2B2-3813-10B1-655CA54EBB7C</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DR_DAILY_RATE</notNullConstraintName>
+</Column>
+<Column name="DAILY_RATE_PET_TYPE" id="1EAB728B-00BB-55DD-62AF-424179688CA0">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B0ED6B6F-346B-238C-B59C-484287DDFC47</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DR_DAILY_RATE_PET_TYPE</notNullConstraintName>
+</Column>
+<Column name="DAILY_RATE_DOG_SIZE" id="9E42F955-ACC3-14D8-86D8-DEC8F114AA8B">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BBDABCE5-4797-26B5-4ED0-6A23E00A68F1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FE9952A5-D5BD-B3F4-4424-5DAECA3A6BF0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAILY_RATE_NUMBER_OF_CATS" id="04EE6981-B084-01BA-C61A-D943CEF7CEE5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>39092789-2F5D-D420-258F-9426EC4523E6</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CST_CAT_SUITE_TYPE_NUMBER" id="50F4F78D-62F3-9B30-B69A-DFB51B810ADA">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>449B7570-8C29-8C1E-4829-7A22870761F2</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DR_CST_SUITE_TYPE_NUM</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="5DABE675-F47A-EE0B-EEA5-7065DB1A8C86" referredColumn="AC2AD4A7-D51A-C789-0D94-8AF74BB1E349"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73A47CAA-F9FA-7C07-1F49-1A3FEC6FDE34" name="HVKDAILY-RATE_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>0EE0D245-DA2A-062F-5172-9A8F471B2012</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0336AC-17DC-F8C3-2ED4-C09C8C9B0455"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84380B6D-6330-C3C8-E295-ABF3B80E903F" name="DR_SER_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>66ECA4B0-D9C4-1762-1074-70D647EF9E41</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED9338F0-3539-627D-3BA0-3792D3588CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA91681C-6C75-AE2F-0A04-6D0679CB5B10" name="DR_CST_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>77907D4C-CFCC-A7EA-091B-B7C62E547ABC</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F4F78D-62F3-9B30-B69A-DFB51B810ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

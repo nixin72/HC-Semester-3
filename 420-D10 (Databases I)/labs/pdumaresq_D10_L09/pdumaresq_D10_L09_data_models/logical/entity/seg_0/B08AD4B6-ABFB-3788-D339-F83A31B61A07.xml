@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B08AD4B6-ABFB-3788-D339-F83A31B61A07" name="Software">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:32:51 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="software-id" id="4BE98DF1-3125-61F6-8ABD-911CFCC0FD39">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:34:11 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="software-name" id="DCF2983C-DD1B-2FE3-BCCA-673EEDFC4479">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:34:18 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unit-cost" id="ACD07D45-D0D6-D248-16F2-16946F5F884F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:34:26 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="version" id="71731F3B-0B0E-250A-40C6-00BDBD962EBE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:34:34 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number-of-copies" id="270C1C66-E546-E3A2-CA41-8868F9BAB01F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:38:16 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vendor-id" id="66D44B9E-6A84-0778-A1DA-760BA282AA8C">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:40:30 UTC</createdTime>
+<generatorID>48CEA810-99AA-27E5-7AB3-DC0C7436AFF9</generatorID>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<referedAttribute>D6012D75-8D1B-A5F8-E088-F9AC317C28CB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department-code" id="B8DC713C-4277-4A9C-80B1-733DEE9EA63E">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:53:44 UTC</createdTime>
+<generatorID>332EEFD6-2817-7FDA-5335-4B278403F1C8</generatorID>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<referedAttribute>A9EE1F23-BC0B-C2B2-E9F2-E1C67B137ADE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9AF2D08-0CC2-B823-5780-F2B23B42D8B2" name="Software PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:38:37 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BE98DF1-3125-61F6-8ABD-911CFCC0FD39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

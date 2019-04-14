@@ -1,0 +1,13 @@
+#container {
+	width: 80%;
+	text-align: center;
+}
+.labels {
+	text-align: right;
+}
+.fields {
+	text-align: left;
+}
+#button {
+	text-align: left;
+}

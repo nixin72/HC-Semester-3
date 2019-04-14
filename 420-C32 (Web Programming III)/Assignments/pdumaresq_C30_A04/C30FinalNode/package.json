@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "None",
+  "license": "UNLICENSED",
+
+  "dependencies": {
+    "xml2js": "*",
+    "request": "*"
+  }
+}

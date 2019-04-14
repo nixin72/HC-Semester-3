@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="133F31DE-7C5F-E3DB-8809-A802652D1E2B" name="HVKSERVICE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>6EF6AAA1-5F48-CF34-5F94-5B8D8E3AF756</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>SER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICE_NUMBER" id="85DAA822-287B-C909-8C14-D75B9E0393CF">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CD266B03-F6F9-72B8-7716-9FE0F1977576</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SER_SERVICE_NUMBER</notNullConstraintName>
+</Column>
+<Column name="SERVICE_DESCRIPTION" id="5B57B4C2-95DA-BE7F-ACEA-8D77A2ACCA58">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B4DF0A42-67E1-E721-A034-6EE37CAD7C9F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB57BAD5-DABF-78F4-5014-CFFACA397A76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SER_SERVICE_DESCRIPTION</notNullConstraintName>
+</Column>
+<Column name="SERVICE_NAME" id="E1465E61-36B6-AA90-6874-EA9E847564B5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>6F71235E-1428-5355-95C0-BB7811121DCA</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SER_SERVICE_NAME</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0156714-4B99-E200-5280-2F51E5320D95" name="HVKSERVICE_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>439982B7-82E9-77AA-035C-62E154E846F0</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85DAA822-287B-C909-8C14-D75B9E0393CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

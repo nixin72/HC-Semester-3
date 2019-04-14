@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD6D7230-EEC3-D8FF-519D-D84DA76C763F" name="Emergency-Contact">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-25 15:22:37 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMERGENCY_CONTACT_NUMBER" id="C186C886-6DE4-BFF9-007B-FB9A6AE336D3">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-25 15:23:04 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMERGENCY_CONTACT_FIRST_NAME" id="23B2A575-01D4-AA3E-EDDE-C17AFB081D3A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-25 15:23:22 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMERGENCY_CONTACT_LAST_NAME" id="838820DC-DE97-466D-E5E4-F1AEB033D8F5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-25 15:23:36 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMERGENCY_CONTACT_PHONE_NUMBER" id="48FCA7A6-58FC-680E-A6F9-761FB2D5D487">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-25 15:23:50 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0CBD311E-2BBD-6998-CDA6-553ED7E8B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F63B0992-168D-F89E-4D4B-0323696DD057" name="Emergency-Contact PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-25 15:32:53 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C186C886-6DE4-BFF9-007B-FB9A6AE336D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

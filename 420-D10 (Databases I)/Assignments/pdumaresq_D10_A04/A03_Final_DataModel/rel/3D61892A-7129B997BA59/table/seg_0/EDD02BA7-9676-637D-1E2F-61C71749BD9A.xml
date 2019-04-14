@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDD02BA7-9676-637D-1E2F-61C71749BD9A" name="HVKPET-RESERVATION">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>59BED8B8-741D-0B71-6AE1-032B9854C0B7</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkpet_reservation</ordsAlias>
+<abbreviation>PR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PET_RES_NUMBER" id="42BE6EDC-5F11-8A19-3ECC-261164C6415F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>F4239631-99DF-DA40-2A93-D5AFBB21E11A</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PR_PET_RES_NUMBER</notNullConstraintName>
+</Column>
+<Column name="RUN_RUN_NUMBER" id="86134942-5EF7-03C6-B108-14A0FECD2C13">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>540D74D4-76CE-E40A-098A-BAA51591BC1F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PR_RUN_RUN_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BF2C3B61-988C-4FAB-6108-3F26CFFE1908" referredColumn="85C1C57F-5A3F-C416-F10F-755ED77B5750"/>
+</associations>
+</Column>
+<Column name="RES_RESERVATION" id="9D73AEB4-A540-4AF1-8883-31954F1BDDBD">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B1F21F65-83A9-9BCE-73CF-D9C1C6233363</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PR_RES_RESERVATION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DD9FEB51-5E1B-0307-1F3C-55C28FBDDAD8" referredColumn="E907E8FD-CB40-430D-326B-351641C80352"/>
+</associations>
+</Column>
+<Column name="PET_PET-PET_NUMBER" id="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>94C0E4CF-1D65-896D-056A-58A7AFEAF2D6</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PR_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="FEBA0DBE-DDD2-BAFB-AE6A-63988479015C" referredColumn="72A797E6-90C3-4A14-0418-A4162618D906"/>
+<colAssociation fkAssociation="BEE7B840-B3EC-248A-4922-72945D42BF04" referredColumn="72A797E6-90C3-4A14-0418-A4162618D906"/>
+</associations>
+</Column>
+<Column name="CS_CST_CAT_SUITE_TYPE_NUMBER" id="4701A128-793C-21C0-E27D-A25765100675">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>4CBF8C24-3874-5D43-26EF-F4CC696CCBD2</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DF2BC71-DE19-7778-D8B3-DFFEBDA11AB0" referredColumn="99EE67B0-7596-432E-AEEB-0102C4C45075"/>
+</associations>
+</Column>
+<Column name="CS_CAT_SUITE_NUMBER" id="C3C8D1F8-9B0F-20A1-FB97-53528129B258">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>6B0621C6-721F-46DB-C39F-2375A25AEF14</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DF2BC71-DE19-7778-D8B3-DFFEBDA11AB0" referredColumn="89629C4F-1EA5-7DAE-FA5C-D1FBA8861CB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58CBA4E6-D715-07FD-FB59-0E6A2EFFA21B" name="HVKPET-RESERVATION_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>5B223495-12F4-F8D0-C218-36321CD22BF3</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BE6EDC-5F11-8A19-3ECC-261164C6415F"/>
+<colUsage columnID="86134942-5EF7-03C6-B108-14A0FECD2C13"/>
+<colUsage columnID="9D73AEB4-A540-4AF1-8883-31954F1BDDBD"/>
+<colUsage columnID="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1604423C-4CF0-1C38-D55E-5D8A9F7B2F16" name="PR_RUN_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>1416636E-38D6-9AA1-AA05-E8E25E7D2733</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86134942-5EF7-03C6-B108-14A0FECD2C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D164A98-54BC-A1B8-AD0A-87880E58449C" name="PR_PET_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>85E4FBB3-E168-FB4D-3832-BFD595FED2B1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A462B0D0-3CB5-D5A0-A70E-C1DDD65C13CB" name="PR_CS_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>585D86DE-C53C-DEE0-AC74-24379A1534E0</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4701A128-793C-21C0-E27D-A25765100675"/>
+<colUsage columnID="C3C8D1F8-9B0F-20A1-FB97-53528129B258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B50C7C3A-186B-7E43-FD2A-0C913825D06E" name="PR_RES_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>AF9DD745-4C0D-533C-CDD6-EA667F936BB0</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D73AEB4-A540-4AF1-8883-31954F1BDDBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FAEF53A-903C-5ED9-B156-340A67E0F54F" name="PR_SHARING_WITH_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 15:26:41 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88FC69C3-E7AD-32C0-C117-1424257E6906" name="Pet Reservation">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:29:01 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pet-id" id="A9E99586-E936-6B16-F7A0-72304ABBC7F1">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:29:27 UTC</createdTime>
+<generatorID>048B967A-72EA-5733-697A-5F2316A33F09</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>C5E6734B-C9D7-E72C-986D-CB23054362EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start Date" id="079F9C83-4710-1C87-0624-E9CFE7D1090A">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:30:58 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End Date" id="50961C8E-2062-63C0-21DD-A6C4BF1CDBE4">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:38:00 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reservation-id" id="5848DB77-9072-C32F-C734-4DF2CC2F9D79">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:47:09 UTC</createdTime>
+<generatorID>5B58FBFE-22AF-EE11-E295-83B060559AFD</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>223CF7DE-5EC9-764D-1140-216749AA18AA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

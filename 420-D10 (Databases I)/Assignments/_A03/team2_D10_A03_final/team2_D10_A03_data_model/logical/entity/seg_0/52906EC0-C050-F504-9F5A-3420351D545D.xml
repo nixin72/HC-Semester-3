@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52906EC0-C050-F504-9F5A-3420351D545D" name="DAILY RATE">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:01:06 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SERVICE_NUMBER" id="CA508106-52DD-0AA6-6680-D8AB62245BCC">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:11 UTC</createdTime>
+<generatorID>66ECA4B0-D9C4-1762-1074-70D647EF9E41</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CD266B03-F6F9-72B8-7716-9FE0F1977576</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAILY_RATE_NUMBER" id="476BF502-98CD-8000-B2C0-5FC640F87213">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:17 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAILY_RATE" id="12B34162-A2B2-3813-10B1-655CA54EBB7C">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:30 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAILY_RATE_PET_TYPE" id="B0ED6B6F-346B-238C-B59C-484287DDFC47">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:36 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAILY_RATE_DOG_SIZE" id="BBDABCE5-4797-26B5-4ED0-6A23E00A68F1">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:52 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAILY_RATE_NUMBER_OF_CATS" id="39092789-2F5D-D420-258F-9426EC4523E6">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:32:02 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAT_SUITE_TYPE_NUMBER" id="449B7570-8C29-8C1E-4829-7A22870761F2">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:34:30 UTC</createdTime>
+<generatorID>77907D4C-CFCC-A7EA-091B-B7C62E547ABC</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>64A0E0C7-F622-1310-D42A-4BD3B53173AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EE0D245-DA2A-062F-5172-9A8F471B2012" name="DAILY RATE PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:29 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>476BF502-98CD-8000-B2C0-5FC640F87213</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

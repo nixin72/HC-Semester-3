@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C7FE48C-7290-AA56-30D7-64755AF77711" name="Patron">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:57:11 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patron_id" id="5AB262D2-C6A6-C995-5538-F2105A8AF10D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:57:20 UTC</createdTime>
+<notes>Unique patron ID number, also called the library card number.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>773D2E24-0C68-ED68-4A2F-D31D3E348663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="014195FE-BDB6-C846-8864-ACC6768C7BCA">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:57:44 UTC</createdTime>
+<notes>Patron&apos;s last name. </notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE49AAF2-0848-ECE8-6B7F-8F3E81F7EB2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="C886C985-6F24-A7A9-2DFF-D61394E7D960">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:58:02 UTC</createdTime>
+<notes>Patron&apos;s first name.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE49AAF2-0848-ECE8-6B7F-8F3E81F7EB2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_4" id="338E5CC1-3B45-F1B1-8E76-77E6F325FBD4">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:58:16 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="EAAD0211-24E5-E42B-1EF9-E04F0354F176">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:58:23 UTC</createdTime>
+<notes>Patron&apos;s street address.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9989AA77-FB74-9403-4307-530DB8DA0EB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="9286DD2B-82CA-A789-9387-2F28BC1FDE37">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:58:38 UTC</createdTime>
+<notes>City or town where the patron lives.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2421EE67-1A38-6646-D265-4D2998CEC1FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="province" id="7A972FB4-B0A4-1ADA-71DD-FC07108356A9">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:58:56 UTC</createdTime>
+<notes>2-letter code for the province where the patron lives.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>0955BDFF-6821-CC38-0EE2-20D7336E1A25</domain>
+<defaultValue>QC</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal_code" id="47059F98-98C7-E6DF-CF98-5742ED852955">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:59:11 UTC</createdTime>
+<notes>Postal code where the patron lives.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C9A3BECA-2FE1-76BF-67F5-80AE2A791A26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="1E7D19EF-7570-EAC8-516F-A43A42628070">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:59:30 UTC</createdTime>
+<notes>Oracle Spatial geometry object representing the patron&apos;s geocoded address.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D43DFFD-880F-9A7F-0576-976AA1F32199" name="Patron PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:57:36 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AB262D2-C6A6-C995-5538-F2105A8AF10D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

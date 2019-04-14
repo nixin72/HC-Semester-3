@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21DEC1AB-97DC-B271-E3B5-575CF4BA40E3" name="HVKRUN">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>15F8B0C1-6D46-6AC6-21AE-C3E06FE8D4D2</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>RUN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUN_NUMBER" id="85C1C57F-5A3F-C416-F10F-755ED77B5750">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>64F9AE59-FC93-03EF-A308-8A82AC056F26</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_RUN_RUN_NUMBER</notNullConstraintName>
+</Column>
+<Column name="RUN_SIZE" id="79DE0390-0ABE-B9C7-7BA4-6008B3F5ABEC">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>C8F2523D-ECCB-9ED7-1BEA-1C82C02D8FBC</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FE9952A5-D5BD-B3F4-4424-5DAECA3A6BF0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_RUN_RUN_SIZE</notNullConstraintName>
+</Column>
+<Column name="RUN_COVERED" id="26A0A500-6810-EAAA-3304-1B220B20085D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>7E71EB3C-23A1-8497-83C4-A30F3E50F816</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUN_FRONT" id="96061796-357B-6B5A-16FF-8E8AD3E6D65A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>41B72D53-E946-18A0-13EA-1ADF44690FB6</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUN_STATUS" id="BBF66926-B1F6-D6F3-D4F9-F025CF17B299">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>F6F34E45-6541-C038-0E21-6D772BFD23E1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3A35FDA-288C-4249-D59D-6BF056B62649" name="HVKRUN_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D930D6FB-72CD-C034-F83F-99AF9DF145AC</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C1C57F-5A3F-C416-F10F-755ED77B5750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0B1F863-CA34-BB72-0535-52B354CC425E" name="CAT_SUITE">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:00:25 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CAT_SUITE_TYPE_NUMBER" id="C947F1EF-8A06-46F2-18BB-945D4B95C0F6">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:34:30 UTC</createdTime>
+<generatorID>5DCCFF02-9910-0E0F-CBFA-5A4C0970C104</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>64A0E0C7-F622-1310-D42A-4BD3B53173AC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAT_SUITE_NUMBER" id="BA1CBAA9-E218-F987-7D66-8E1C22946C06">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:35:11 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUITE_STATUS_READY" id="31DAF2B8-3C49-8337-602C-F1717359F76E">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:35:21 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B2E3186-94E2-4BC0-CF8F-387445ACD752" name="CAT_SUITE PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:35:44 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C947F1EF-8A06-46F2-18BB-945D4B95C0F6</attributeRef>
+<attributeRef>BA1CBAA9-E218-F987-7D66-8E1C22946C06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

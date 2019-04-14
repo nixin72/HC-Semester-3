@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6D9FA9C-4E33-232C-3112-9E75569DE020" name="HVKSPECIAL-NOTES">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D0BB0C08-8FAF-68B7-83F7-FFE9A79E04CD</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkspecial_notes</ordsAlias>
+<abbreviation>SPN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PET_PET-PET_NUMBER" id="21B697C3-D4E6-CADF-4776-509544F8A4B3">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>351CAD4E-6F7E-2E61-5358-BF65505FE530</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_SPN_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="FED9C4E8-CA2B-92FA-B9E4-15839B3E7521" referredColumn="72A797E6-90C3-4A14-0418-A4162618D906"/>
+</associations>
+</Column>
+<Column name="SPECIAL-NOTES" id="8C9AA4F0-0916-B931-EFC3-41D18F70482C">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CB55AE0C-C3EE-0B50-E5BA-B4D13CEAB875</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB57BAD5-DABF-78F4-5014-CFFACA397A76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C0CD125-9CB1-B449-FF1D-C067550EC000" name="SPN_PET_PET-PET_NUMBER_IDX">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D0CC5CB8-1033-7669-DBC7-9068B7D54513</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="21B697C3-D4E6-CADF-4776-509544F8A4B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC4E35D1-79A2-BD17-4610-956E3CD47FB8" name="SPN_PET_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D0CC5CB8-1033-7669-DBC7-9068B7D54513</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B697C3-D4E6-CADF-4776-509544F8A4B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

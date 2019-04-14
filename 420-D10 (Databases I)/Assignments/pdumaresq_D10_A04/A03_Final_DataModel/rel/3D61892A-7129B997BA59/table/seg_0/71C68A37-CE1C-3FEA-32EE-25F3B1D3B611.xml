@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71C68A37-CE1C-3FEA-32EE-25F3B1D3B611" name="HVKCAT_SUITE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D0B1F863-CA34-BB72-0535-52B354CC425E</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>CS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUITE_TYPE_NUM" id="99EE67B0-7596-432E-AEEB-0102C4C45075">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>C947F1EF-8A06-46F2-18BB-945D4B95C0F6</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CS_CST_CAT_SUITE_TYPE_NUM</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B6CE055C-A5AD-37DF-7C6D-231A1C52FF5C" referredColumn="AC2AD4A7-D51A-C789-0D94-8AF74BB1E349"/>
+</associations>
+</Column>
+<Column name="CAT_SUITE_NUMBER" id="89629C4F-1EA5-7DAE-FA5C-D1FBA8861CB1">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BA1CBAA9-E218-F987-7D66-8E1C22946C06</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CS_CAT_SUITE_NUMBER</notNullConstraintName>
+</Column>
+<Column name="SUITE_STATUS_READY" id="29B5B173-8297-23D1-CE78-0405BEACB571">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>31DAF2B8-3C49-8337-602C-F1717359F76E</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_CS_SUITE_STATUS_READY</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="274BFEC0-07B3-F341-4549-DBD5653B4CEA" name="HVKCAT_SUITE_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>7B2E3186-94E2-4BC0-CF8F-387445ACD752</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99EE67B0-7596-432E-AEEB-0102C4C45075"/>
+<colUsage columnID="89629C4F-1EA5-7DAE-FA5C-D1FBA8861CB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67FC566B-671C-6552-A572-C7E13EB23ACB" name="CS_CST_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>5DCCFF02-9910-0E0F-CBFA-5A4C0970C104</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99EE67B0-7596-432E-AEEB-0102C4C45075"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

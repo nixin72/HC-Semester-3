@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63846EAB-8611-D3F9-D5A3-EC930E3086CC" name="PET-RESERVATION-SERVICE">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:01:21 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PET_RES_NUMBER" id="6F838161-CD4B-E96B-943E-35E53292C0E9">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:06:48 UTC</createdTime>
+<generatorID>B3739DAC-D6AF-F018-DBE9-AB2E4D30C433</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>F4239631-99DF-DA40-2A93-D5AFBB21E11A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN_NUMBER" id="376A3592-2226-0047-4219-B4B79063A4A9">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:06:48 UTC</createdTime>
+<generatorID>B3739DAC-D6AF-F018-DBE9-AB2E4D30C433</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>540D74D4-76CE-E40A-098A-BAA51591BC1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATION" id="16DA8D29-BD3F-80F1-F8FD-3B9DDBE3F388">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:06:48 UTC</createdTime>
+<generatorID>B3739DAC-D6AF-F018-DBE9-AB2E4D30C433</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>B1F21F65-83A9-9BCE-73CF-D9C1C6233363</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_NUMBER" id="EEA5FCC9-4CAB-B656-B18C-344EF29479E2">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:19:18 UTC</createdTime>
+<generatorID>B3739DAC-D6AF-F018-DBE9-AB2E4D30C433</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>94C0E4CF-1D65-896D-056A-58A7AFEAF2D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SERVICE_FREQUENCY" id="64B72ECD-09F5-EA38-631E-AC94CDACD5C1">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:30:11 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SERVICE_NUMBER" id="DC8BE214-E375-96E9-D23D-5871122FB517">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:31:11 UTC</createdTime>
+<generatorID>15005AEF-709E-0F4C-ADEE-AE21FFC6941F</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>CD266B03-F6F9-72B8-7716-9FE0F1977576</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIME_OF_DAY" id="7303ACD6-0D86-F61E-32B2-A6A7D277A005">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 18:39:57 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEFE8B51-7209-DAC9-B4BC-70DDE6202281" name="PET-RESERVATION-SERVICE PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:06:48 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F838161-CD4B-E96B-943E-35E53292C0E9</attributeRef>
+<attributeRef>376A3592-2226-0047-4219-B4B79063A4A9</attributeRef>
+<attributeRef>16DA8D29-BD3F-80F1-F8FD-3B9DDBE3F388</attributeRef>
+<attributeRef>EEA5FCC9-4CAB-B656-B18C-344EF29479E2</attributeRef>
+<attributeRef>DC8BE214-E375-96E9-D23D-5871122FB517</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

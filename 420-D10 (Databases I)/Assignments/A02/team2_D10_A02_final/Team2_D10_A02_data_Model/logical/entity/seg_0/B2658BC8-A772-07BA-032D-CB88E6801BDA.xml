@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2658BC8-A772-07BA-032D-CB88E6801BDA" name="Kennel Card">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:21:58 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Other-dog-id" id="C3D3E447-AC92-A2A4-1890-656E20A50D52">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:22:29 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pet-id" id="7D8C03B2-D6E9-182D-A355-0592BA5647B5">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 15:12:36 UTC</createdTime>
+<generatorID>50D72DB7-8846-F832-F073-D0DBC6A241E0</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>C5E6734B-C9D7-E72C-986D-CB23054362EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

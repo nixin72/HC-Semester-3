@@ -1,0 +1,11 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "description": "List of dependencies for assignment 2 node server",
+  "repository": "None",
+  "license": "UNLICENSED",
+
+  "dependencies": {
+      "xml2js": "*"
+  }
+}

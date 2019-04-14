@@ -1,0 +1,56 @@
+t2 
+- no SQL
+- normalization
+
+second portion of the course is all going to be individual work
+
+Weak Entity:
+An entity who's primary keys come from the primary keys of other entities.  
+So either associative entities whose key comes from the keys of the two entities it's relating, 
+or subtypes, whose primary keys come from their parent entity.
+
+2 types: suptypes and associative entities
+
+Every table has a primary key. By definition of an RDBMS
+
+role of a primary key in a database: 
+    When coming up with a database you make a list of candidate primary keys.
+    A key uniquely identifies a row. 
+    Associative entities use compond keys, two different attributes that make up a unique key.
+    
+Surrogate key
+    A surrogate key has no meaninging in the real world. It's just an arbitrary number. 
+        No matter what, the surrogate key WILL NOT change.
+    
+Intelligent Keys:
+    Something that comes from a real world unique attribute, like your SIN number. 
+        Something meaningful. (my permanent code is DUMP08049803 (or something like that)),
+        it's an Intelligent key about me. 
+    Gender, firstname, lastname, etc., they're all things that can be changed. 
+
+When things change over time:
+    product (prod_id, prod_price, etc.)
+    
+    how do you keep a record of that history?
+    Make another entity that holds the history for that key.
+    
+    product (prod_id, etc.) 
+    product-price (prod_id, prod_price) <---- Weak entity
+    
+    Like finding the kennel log for any given date. 
+    
+Generalization:
+    Taking many entities and making them into one. 
+        -Opposite of specializing
+        
+    Dog (dog_id, dog_color, date_of_birth, etc)
+    Cat (cat_id, cat_color, date_of_birth, etc)
+    
+    ^^^^
+    Pet (pet_id, pet_color, date_of_birth, pet_type);
+    
+Specialization: 
+    Opposite of generalization. Taking the Pet entity and turning it into the 
+        cat entity and the dog entity.
+        
+    

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C5A8B4C-71AF-3416-A959-9ECA4828A041" name="Kennel Log By Date">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-09-21 16:03:02 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Notes" id="44E3A599-949B-9565-F604-66B88C0B2FB1">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:27:43 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reservation-id" id="6C6CCA2A-1390-BCBC-D7EB-E9A7875ED31A">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 15:25:09 UTC</createdTime>
+<generatorID>A561172D-056B-6532-F551-AD464DCB809F</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>223CF7DE-5EC9-764D-1140-216749AA18AA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="9804990C-2232-B299-0371-CA296C589CAF">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 15:25:25 UTC</createdTime>
+<generatorID>0CF29D50-0068-C169-6560-F70113634956</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>01D4EEAD-60C3-1461-1C9A-BD0F71FBAE2E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pet-id" id="FDA4ECCA-4B8A-87E9-A45D-9FC31F8B6F97">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 15:25:52 UTC</createdTime>
+<generatorID>DED8E4EA-DAF5-6E65-B7CC-2845B7472223</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>C5E6734B-C9D7-E72C-986D-CB23054362EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

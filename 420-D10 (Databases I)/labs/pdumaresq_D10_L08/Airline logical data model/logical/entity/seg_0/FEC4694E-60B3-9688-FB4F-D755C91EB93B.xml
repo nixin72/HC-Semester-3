@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEC4694E-60B3-9688-FB4F-D755C91EB93B" name="CREW">
+<createdBy>ahamilton</createdBy>
+<createdTime>2012-09-24 18:20:55 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="crewId" id="CC676DCC-6772-B3CD-2DC9-B40F0E1F709C">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:55:03 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crewName" id="7AA14D9A-651E-5B2E-D7EE-8DA85D6C949F">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:55:08 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crewPosition" id="55962112-2B4A-957C-789C-5A2F099B02E2">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:55:12 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="550AD9BB-CAD3-9486-76C2-473CA6161C4F" name="CREW PK">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:55:32 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC676DCC-6772-B3CD-2DC9-B40F0E1F709C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

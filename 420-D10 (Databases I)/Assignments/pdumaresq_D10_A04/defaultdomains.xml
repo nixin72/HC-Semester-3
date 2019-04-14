@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Phone" directorySegmentName="seg_0" id="0CBD311E-2BBD-6998-CDA6-553ED7E8B2AF">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:30 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Entity Id" directorySegmentName="seg_0" id="56B55C2F-727C-4C1F-7D3E-834956C430B5">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:53 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>8</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Email" directorySegmentName="seg_0" id="6EE935BD-F9CB-A3A4-EAED-445014765AF1">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:31:01 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Street" directorySegmentName="seg_0" id="7921091D-723B-0B30-E714-00AACDF80D52">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:19:00 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>95</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date" directorySegmentName="seg_0" id="8536124B-D586-3B8F-A3D5-BE690C28B38F">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:29:43 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Service" directorySegmentName="seg_0" id="86D434E3-CC16-DA41-AE72-25C189790D38">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:30:47 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Name" directorySegmentName="seg_0" id="88C95EC3-9406-1D75-EF5F-04A144621F73">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:24 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Yes / No" directorySegmentName="seg_0" id="B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:58 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Amount" directorySegmentName="seg_0" id="B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:30:21 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>6</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="City" directorySegmentName="seg_0" id="B9231343-7483-4BFA-CDF7-3DEED1C76DD0">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:19:01 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>35</dataTypeSize>
+         <defaultValue>Gatineau</defaultValue>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Notes" directorySegmentName="seg_0" id="BB57BAD5-DABF-78F4-5014-CFFACA397A76">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:54 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>500</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Postal-Code" directorySegmentName="seg_0" id="BD79CFF4-5B69-6411-3877-3E5D406C92E0">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:28 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>6</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Province" directorySegmentName="seg_0" id="C2DD72A8-6822-CE16-209C-E3968242BD79">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:26 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>2</dataTypeSize>
+         <defaultValue>QC</defaultValue>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <listOfValues>
+            <valueDef value="ON" description="Ontario"/>
+            <valueDef value="QC" description="Quebec"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Vaccination" directorySegmentName="seg_0" id="D53D36D5-C3D0-A953-80DF-490A1C3A227D">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:29:59 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Bordetella" description=""/>
+            <valueDef value="Distemper" description=""/>
+            <valueDef value="Hepatitus" description=""/>
+            <valueDef value="Parainfluenza" description=""/>
+            <valueDef value="Parovirus" description=""/>
+            <valueDef value="Rabies" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>6137954</createdBy>
+         <createdTime>2016-10-05 14:26:44 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Sex" directorySegmentName="seg_0" id="E211C479-89B0-3801-0DF1-133BDD76F047">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:56 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <listOfValues>
+            <valueDef value="F" description="Female"/>
+            <valueDef value="M" description="Male"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Size" directorySegmentName="seg_0" id="FE9952A5-D5BD-B3F4-4424-5DAECA3A6BF0">
+         <createdBy>1603452</createdBy>
+         <createdTime>2016-10-19 15:18:50 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <listOfValues>
+            <valueDef value="L" description="Large"/>
+            <valueDef value="M" description="Medium"/>
+            <valueDef value="S" description="Small"/>
+         </listOfValues>
+      </Domain>
+   </domains>
+</DomainFile>

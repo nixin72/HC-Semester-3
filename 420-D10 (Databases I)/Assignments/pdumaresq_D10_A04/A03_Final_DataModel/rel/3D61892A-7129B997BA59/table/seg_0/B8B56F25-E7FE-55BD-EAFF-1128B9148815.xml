@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8B56F25-E7FE-55BD-EAFF-1128B9148815" name="HVKDOG">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>6C510F2F-CBF6-A356-FFD9-EE9017D03E51</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>DOG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PET-PET_NUMBER" id="F897CC17-DAB4-94E7-86D7-1E74B1619201">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>269B3CD5-3C31-164E-05FD-D3454CD4C68E</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DOG_PET-PET_NUMBER</notNullConstraintName>
+</Column>
+<Column name="DOG-DOG_SIZE" id="A947DDDF-75F5-4C4C-E157-EEEA159B98CE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>F348A08A-14ED-E46B-9BFF-1519F3D6ABE8</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<constraintName>CK_DOG_DOG-DOG_SIZE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FE9952A5-D5BD-B3F4-4424-5DAECA3A6BF0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG-CLIMBER" id="64A43A18-3520-C9D0-3A7E-7827C486B72C">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BA54D887-9ECE-0A04-113E-372AF22228EE</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOG-BARKER" id="F5A9CAC5-329C-85C8-9D41-D3355CBA59EF">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>4FD9A3AB-9F74-B747-ABAC-A17ADD56341F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43D7DDE7-A128-8D24-FB6D-A613E15651E3" name="HVKDOG_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BC98A8B8-DD2B-3B9E-6905-AABB7DEEEA2E</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F897CC17-DAB4-94E7-86D7-1E74B1619201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

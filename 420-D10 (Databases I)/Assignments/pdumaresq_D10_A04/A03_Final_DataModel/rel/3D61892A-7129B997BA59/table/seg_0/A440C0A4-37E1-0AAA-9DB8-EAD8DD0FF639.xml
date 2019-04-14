@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A440C0A4-37E1-0AAA-9DB8-EAD8DD0FF639" name="HVKEmergency-Contact">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>FD6D7230-EEC3-D8FF-519D-D84DA76C763F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkemergency_contact</ordsAlias>
+<abbreviation>EMC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMERGENCY_CONTACT_NUMBER" id="927EA692-A28C-9BCE-64E3-919567846C26">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>C186C886-6DE4-BFF9-007B-FB9A6AE336D3</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_EMC_EMRG_CONT_NUM</notNullConstraintName>
+</Column>
+<Column name="EMERGENCY_CONTACT_FIRST_NAME" id="162F3ADE-B727-090F-FEFA-B5315DB5EBB0">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>23B2A575-01D4-AA3E-EDDE-C17AFB081D3A</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_EMC_EMERG_CONT_F_NAME</notNullConstraintName>
+</Column>
+<Column name="EMERGENCY_CONTACT_LAST_NAME" id="29128E8C-3383-AEF1-E829-D2481609450A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>838820DC-DE97-466D-E5E4-F1AEB033D8F5</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_EMC_EMERG_CONT_L_NAME</notNullConstraintName>
+</Column>
+<Column name="EMERGENCY_CONTACT_PHONE_NUMBER" id="F4408222-7C18-731A-BBEA-5FF358E73C95">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>48FCA7A6-58FC-680E-A6F9-761FB2D5D487</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0CBD311E-2BBD-6998-CDA6-553ED7E8B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3DDE079-113C-A940-E1E9-01E9517FBBAA" name="HVKEmergency-Contact_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>F63B0992-168D-F89E-4D4B-0323696DD057</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="927EA692-A28C-9BCE-64E3-919567846C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

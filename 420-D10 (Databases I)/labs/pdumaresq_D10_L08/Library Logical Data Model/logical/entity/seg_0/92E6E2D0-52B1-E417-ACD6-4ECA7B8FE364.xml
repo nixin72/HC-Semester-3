@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92E6E2D0-52B1-E417-ACD6-4ECA7B8FE364" name="reservation">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:34:04 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date-reserved" id="613B4C68-535F-ABE2-FA13-37B01288904E">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:35:24 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrower-number" id="1D4F95A0-8A59-AE41-7060-CEA8E90E894E">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 23:15:52 UTC</createdTime>
+<generatorID>3517DF18-6601-2072-D834-59C3EBCDC6D2</generatorID>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<referedAttribute>B7B2C0C5-5E10-F8CA-DEFA-6C13E79E9F35</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="catalogue-number" id="C6FCEF25-2A0F-1B72-51E3-10D54F493754">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-28 23:54:58 UTC</createdTime>
+<generatorID>B83123C0-16AE-4584-A33D-389F40B5EFA2</generatorID>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<referedAttribute>42192076-971D-C183-D69A-901B104AD301</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2250C067-56FE-D5DB-A83C-4E23192D8DAD" name="PK_reservation">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:43:45 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6FCEF25-2A0F-1B72-51E3-10D54F493754</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C84DC2D-25C4-CFF2-81D8-3F85D26E4B09" name="VETINARIAN">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:03:57 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VET_NUMBER" id="CDBDB362-BC80-C37D-6BA0-F47B2CFC57B6">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:20:11 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_FIRST_NAME" id="F589E347-3EB5-16F3-3FF3-8844F4A26DF0">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:20:46 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_LAST_NAME" id="468797B0-A37C-6FEB-C944-90A5C33FBEC3">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 18:36:32 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_PHONE" id="E5CC9B16-A796-300A-063C-2B8210C1A337">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:20:51 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0CBD311E-2BBD-6998-CDA6-553ED7E8B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_STREET" id="8E3FE5A0-5D36-0BC3-616C-F5C2DD13EBD8">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:20:57 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7921091D-723B-0B30-E714-00AACDF80D52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_CITY" id="19173DED-789D-9DB3-D783-FEC53410EDE4">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:21:07 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B9231343-7483-4BFA-CDF7-3DEED1C76DD0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_PROVINCE" id="E6DD04DF-8699-C281-1D9C-D3396CEA5A4E">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:21:11 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C2DD72A8-6822-CE16-209C-E3968242BD79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_POSTAL_CODE" id="B75195B9-8938-D031-72B4-1BBA75D841AA">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:21:17 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD79CFF4-5B69-6411-3877-3E5D406C92E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E3390B3-BCD8-D1A4-31AF-80B41C09AE10" name="VETINARIAN PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:21:40 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDBDB362-BC80-C37D-6BA0-F47B2CFC57B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

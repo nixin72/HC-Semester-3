@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1D16C3D-5663-6674-E161-E3B2283AA29F" name="HVKFOOD">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>910F6D38-0E5A-B152-3FF9-5CC984A15AF9</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>FD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FOOD_NUMBER" id="6573F2D1-F97F-BEB9-ECB5-659769DE40D0">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>1808CFBE-F6B9-484E-7ADE-F2051C7750AE</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FD_FOOD_NUMBER</notNullConstraintName>
+</Column>
+<Column name="FOOD_BRAND" id="7F9412DB-079C-EEA2-8218-58CB3E9BD7FE">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>A8C27604-A618-1B6E-5BA5-C17A66D01F67</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FD_FOOD_BRAND</notNullConstraintName>
+</Column>
+<Column name="FOOD_VARIETY" id="CE3FE323-CE47-5DC6-286A-F2D50DA3E032">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B5FCA84D-3E41-D379-C5BB-8DB74D66DC04</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOOD_PET_TYPE" id="778824C4-5AD3-0821-1E92-B23DE389E9B7">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D8A9B965-1485-B096-FC63-76AA86454B5C</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_FD_FOOD_PET_TYPE</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82EA822A-A477-81B1-9141-75693BAE530C" name="HVKFOOD_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>632DCD0C-D4CC-27E2-185E-D8D27908B785</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6573F2D1-F97F-BEB9-ECB5-659769DE40D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

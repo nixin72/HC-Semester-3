@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A01D327-72C1-8C83-64F2-257FA94E7B86" name="MEDICATION">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:02:32 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PET_RES_NUMBER" id="B4CFFB7D-117B-42A5-382D-77535000A430">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:05:58 UTC</createdTime>
+<generatorID>F6FFE60E-3083-840F-33D7-A39228A90972</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>F4239631-99DF-DA40-2A93-D5AFBB21E11A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN_NUMBER" id="43E8703A-CFA6-D3BC-197D-381012E05136">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:05:58 UTC</createdTime>
+<generatorID>F6FFE60E-3083-840F-33D7-A39228A90972</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>540D74D4-76CE-E40A-098A-BAA51591BC1F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATION" id="C2530966-B009-417D-B6C6-F8FF6AF2BF03">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:05:58 UTC</createdTime>
+<generatorID>F6FFE60E-3083-840F-33D7-A39228A90972</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>B1F21F65-83A9-9BCE-73CF-D9C1C6233363</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_NUMBER" id="4996184E-C42F-443A-CA3A-9BFECC80920A">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:19:18 UTC</createdTime>
+<generatorID>F6FFE60E-3083-840F-33D7-A39228A90972</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>94C0E4CF-1D65-896D-056A-58A7AFEAF2D6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDICATION_NUMBER" id="ECBDB8F3-04CA-5860-A0AB-B899A5616972">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:27:24 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDICATION_NAME" id="801D2E48-104E-4EA5-F259-B4BF523960B2">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:27:59 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDICATION_DOSAGE" id="BA28A3E0-001A-5AAE-B93A-2E381513F883">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:28:19 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDICATION_SPECIAL_INSTRUCTIONS" id="CF2D4147-22F0-D0F1-7EF0-91F9C49E6DD4">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:28:30 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB57BAD5-DABF-78F4-5014-CFFACA397A76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCBFB54A-6B9F-7D4E-FFF5-B01FD47E1B7A" name="MEDICATION PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:05:58 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4CFFB7D-117B-42A5-382D-77535000A430</attributeRef>
+<attributeRef>43E8703A-CFA6-D3BC-197D-381012E05136</attributeRef>
+<attributeRef>C2530966-B009-417D-B6C6-F8FF6AF2BF03</attributeRef>
+<attributeRef>4996184E-C42F-443A-CA3A-9BFECC80920A</attributeRef>
+<attributeRef>ECBDB8F3-04CA-5860-A0AB-B899A5616972</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

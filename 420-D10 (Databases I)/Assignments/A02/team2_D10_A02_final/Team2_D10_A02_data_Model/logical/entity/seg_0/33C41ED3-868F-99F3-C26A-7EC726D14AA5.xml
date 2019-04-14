@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33C41ED3-868F-99F3-C26A-7EC726D14AA5" name="Vaccinations">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-09-21 16:02:44 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vaccination-Type" id="0C515ED4-1DDD-E685-D2B2-3DC87FE6943B">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:33:21 UTC</createdTime>
+<comment>Rabies&lt;br/&gt;Parovirus&lt;br/&gt;Hepatitis&lt;br/&gt;Parainfluenza&lt;br/&gt;Distemper&lt;br/&gt;Bordetella</comment>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40F0B547-B9EE-E23F-4F02-AA0DD48BA52F" name="Vaccinations PK">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:18:27 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C515ED4-1DDD-E685-D2B2-3DC87FE6943B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

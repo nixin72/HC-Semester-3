@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JSON Object Creation in JavaScript</h2>
+
+<p>
+Name: <span id="jname"></span><br />
+Age: <span id="jage"></span><br />
+Address: <span id="jstreet"></span><br />
+Phone: <span id="jphone"></span><br />
+</p>
+
+<script>
+var x = function() { };
+var JSONObject= {
+"name":"Allan McDonald",
+"street":"325 blvd Cite des Jeunes",
+"age":x,
+"phone":"819 778-2270"};
+document.getElementById("jname").innerHTML=JSONObject.name
+document.getElementById("jage").innerHTML=JSONObject.age
+document.getElementById("jstreet").innerHTML=JSONObject.street
+document.getElementById("jphone").innerHTML=JSONObject.phone
+</script>
+
+</body>
+</html>

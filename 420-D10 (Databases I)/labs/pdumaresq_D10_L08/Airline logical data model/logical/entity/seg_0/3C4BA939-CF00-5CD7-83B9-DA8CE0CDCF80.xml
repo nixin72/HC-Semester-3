@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C4BA939-CF00-5CD7-83B9-DA8CE0CDCF80" name="aircraft">
+<createdBy>ahamilton</createdBy>
+<createdTime>2012-09-24 18:21:00 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="aircraftId" id="D023EED8-802A-0973-7893-F4B687B61061">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:53:00 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aircraftType" id="EDF923D2-DBC7-20FF-A474-0BCE7B4868FE">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:53:12 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9515ECC-A5AE-0E4A-D141-3027660E510F" name="aircraft PK">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:53:11 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D023EED8-802A-0973-7893-F4B687B61061</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

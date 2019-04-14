@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="professor and course" directorySegmentName="seg_0" id="4F224B91-BD6F-61AE-556A-E841FE54AA8B">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:45:43 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>is qualified for</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8A977657-5D40-80A0-3071-55BAFF6B0F39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>191DD8C7-F90B-FD1E-BD83-14A83FAD1C19</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

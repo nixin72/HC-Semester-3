@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="6B653533-DCA1-64EF-234C-04CD087B8F5F">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-29 00:22:12 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<sourcePk>EA2EDF1F-0100-828E-DE9B-97A68D50C962</sourcePk>
+<targetPk>1241F565-359E-E4D2-4027-09D27B7ED891</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>531AF226-B513-9D95-E7C7-2673BA4993A3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9D4FADB3-92BC-D4A4-D07B-5A35CD7D5948</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

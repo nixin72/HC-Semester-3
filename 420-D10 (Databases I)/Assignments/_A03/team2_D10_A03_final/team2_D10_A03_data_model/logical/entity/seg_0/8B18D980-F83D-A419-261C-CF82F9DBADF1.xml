@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B18D980-F83D-A419-261C-CF82F9DBADF1" name="PET-FOOD">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:57:29 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PET_RES_NUMBER" id="D4F71EFF-0EA1-A181-1C06-DAD0B4A7A643">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:59:22 UTC</createdTime>
+<generatorID>2239E3FD-2C19-6543-4407-45DD2E4B7910</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>F4239631-99DF-DA40-2A93-D5AFBB21E11A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN_NUMBER" id="D42D2683-86DC-D46D-D773-6458044E0D7E">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:59:22 UTC</createdTime>
+<generatorID>2239E3FD-2C19-6543-4407-45DD2E4B7910</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>540D74D4-76CE-E40A-098A-BAA51591BC1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATION" id="A285CF87-E2C4-339F-6112-6157F72309C1">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:59:22 UTC</createdTime>
+<generatorID>2239E3FD-2C19-6543-4407-45DD2E4B7910</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>B1F21F65-83A9-9BCE-73CF-D9C1C6233363</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_NUMBER" id="6AAFEB3C-0C4F-CD5D-7ED0-975065C04A9C">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:19:18 UTC</createdTime>
+<generatorID>2239E3FD-2C19-6543-4407-45DD2E4B7910</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>94C0E4CF-1D65-896D-056A-58A7AFEAF2D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_FOOD_FREQUENCY" id="BF6B8FCB-5DCA-B0F1-EC8A-046B0362519B">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:35:58 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_FOOD_QUANTITY" id="BD5E6F23-F4B7-65A5-408A-15AF85AEE5CA">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:36:20 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FOOD_NUMBER" id="496D76EA-1162-A4CE-A9E2-9F8AE09517A6">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:36:49 UTC</createdTime>
+<generatorID>A692669F-4AE1-E127-FFB7-14A79C023DF4</generatorID>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>1808CFBE-F6B9-484E-7ADE-F2051C7750AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B86D7DED-D931-E61A-14A6-87C10A6B7797" name="PET-FOOD PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:59:22 UTC</createdTime>
+<ownerDesignName>team2_D10_A03_data_model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4F71EFF-0EA1-A181-1C06-DAD0B4A7A643</attributeRef>
+<attributeRef>D42D2683-86DC-D46D-D773-6458044E0D7E</attributeRef>
+<attributeRef>A285CF87-E2C4-339F-6112-6157F72309C1</attributeRef>
+<attributeRef>6AAFEB3C-0C4F-CD5D-7ED0-975065C04A9C</attributeRef>
+<attributeRef>496D76EA-1162-A4CE-A9E2-9F8AE09517A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pdumaresq_D10_L05_partB" id="84A0B1C1-D8ED-D39F-84FE-AD18E8ABF81B" version="3.5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:17:43 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>84A0B1C1-D8ED-D39F-84FE-AD18E8ABF81B</designId>
+</OSDM_Design>

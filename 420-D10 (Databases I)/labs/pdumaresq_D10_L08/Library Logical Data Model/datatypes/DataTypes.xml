@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="6396220C-95C7-BD2B-4CFE-316AB974B0AD" mainViewID="4CF04BB9-303D-F18A-B59F-6A25C35D9DBE">
+<createdBy>Anne</createdBy>
+<createdTime>2011-09-25 14:21:37 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<defaultArrayLimit>10</defaultArrayLimit>
+<useRoleInAssociationEndAsName>true</useRoleInAssociationEndAsName>
+</DataTypesDesign>

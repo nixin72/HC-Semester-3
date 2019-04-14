@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1818BB96-A20B-F57B-5FD9-81EDD1631149" name="Run">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-09-21 16:00:20 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Run-Number" id="CAFD96B3-89A0-23F6-E3B1-2D973FFFDF2D">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:07:26 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Covered" id="B6D663F8-3F19-1538-0AE2-9E2BF6B8F0A2">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:07:32 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Front" id="5581F40A-5CBF-9E09-A8A8-A9D575E6EEBA">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:07:37 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reservation-id" id="66D696AE-F2B4-C4DE-0F02-25981FBAA3C6">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:47:09 UTC</createdTime>
+<generatorID>EB021A1B-8428-E569-35B8-6FB824D64478</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>223CF7DE-5EC9-764D-1140-216749AA18AA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C0C1E1F-E30A-1B9C-EE73-E3C1368F7023" name="Run PK">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:08:00 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAFD96B3-89A0-23F6-E3B1-2D973FFFDF2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

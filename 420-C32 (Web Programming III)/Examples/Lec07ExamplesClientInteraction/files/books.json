@@ -1,0 +1,54 @@
+{
+		"book": [
+			{
+				"category": "cooking",
+				"title": {
+					"lang": "en",
+					"Text": "Everyday Italian"
+				},
+				"author": "Giada De Laurentiis",
+				"year": 2005,
+				"price": 30.00
+			}, {
+				"category": "children",
+				"title": {
+					"lang": "en",
+					"Text": "Harry Potter"
+				},
+				"author": "J K. Rowling",
+				"year": 2005,
+				"price": 29.99
+			}, {
+				"category": "web",
+				"title": {
+					"lang": "en",
+					"Text": "XQuery Kick Start"
+				},
+				"author": [
+					"James McGovern", "Per Bothner", "Kurt Cagle", "James Linn", "Vaidyanathan Nagarajan"
+				],
+				"year": 2003,
+				"price": 49.99,
+				"Text": "3rd book element values"
+			}, {
+				"category": "web",
+				"cover": "paperback",
+				"title": {
+					"lang": "en",
+					"Text": "Learning XML"
+				},
+				"author": "Erik T. Ray",
+				"year": 2003,
+				"price": 39.95
+			}, {
+				"category": "fantasy",
+				"title": {
+					"lang": "en",
+					"Text": "Eragon"
+				},
+				"author": "Christopher Paolini",
+				"year": 2008,
+				"price": 13.99
+			}
+		]
+	}

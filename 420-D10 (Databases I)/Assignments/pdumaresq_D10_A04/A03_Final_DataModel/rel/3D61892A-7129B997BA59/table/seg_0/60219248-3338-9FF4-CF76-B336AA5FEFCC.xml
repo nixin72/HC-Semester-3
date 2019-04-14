@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60219248-3338-9FF4-CF76-B336AA5FEFCC" name="HVKRESERVATION-DISCOUNT">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>C12364E1-F470-1082-962D-AE7026E07006</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkreservation_discount</ordsAlias>
+<abbreviation>RD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RES_RESERVATION" id="F7BBADCE-E508-5637-50FC-E4FB5A4E3CF5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>AD43CFD1-6613-AF26-68B7-FA9FC39BFD51</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_RD_RES_RESERVATION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="EB3E89F9-0340-C126-4E17-A50F5D573A74" referredColumn="E907E8FD-CB40-430D-326B-351641C80352"/>
+</associations>
+</Column>
+<Column name="DIS_DISCOUNT_NUMBER" id="1DAD94D0-38FC-9949-390F-973CA52EB45A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>72C5682C-B69D-7345-D941-35D5F732A107</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_RD_DIS_DISCOUNT_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="66EAC1AF-2081-18A9-AAF1-773D92FAEF52" referredColumn="B95B9C79-631C-6557-FE15-FE2B289CFF37"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4EDCCDF-1AFA-DCB5-19B1-51CC122DA97B" name="HVKRESERVATION-DISCOUNT_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>11E87494-7D99-BB33-56F4-F82B8AF2B7F1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BBADCE-E508-5637-50FC-E4FB5A4E3CF5"/>
+<colUsage columnID="1DAD94D0-38FC-9949-390F-973CA52EB45A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D23E99BF-4561-3680-6F2F-9E8ACB16B4E7" name="RD_RES_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CEEA7293-D3D2-AE27-D13B-D6CA64F6F2DD</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BBADCE-E508-5637-50FC-E4FB5A4E3CF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9867298B-C0A8-95CE-1C69-6CAA876D100C" name="RD_DIS_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CEE3748F-2538-A493-2BE7-28B783011391</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DAD94D0-38FC-9949-390F-973CA52EB45A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

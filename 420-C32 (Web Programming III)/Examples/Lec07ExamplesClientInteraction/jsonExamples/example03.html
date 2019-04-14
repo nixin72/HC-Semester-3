@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>parseJSON</title>
+
+<script src=" http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+<h2>Create Object from JSON String</h3>
+<p>
+First Name: <span id="fname"></span><br /> 
+Last Name: <span id="lname"></span><br /> 
+</p> 
+<script type="text/javascript">
+var txt = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+//var txt = '{"firstName":"John","lastName":"Doe" }' 
+
+var obj = $.parseJSON(txt);
+console.log(obj);
+document.getElementById("fname").innerHTML=obj.employees[1].firstName 
+document.getElementById("lname").innerHTML=obj.employees[1].lastName 
+</script>
+</body>
+</html>

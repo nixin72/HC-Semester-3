@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D4FADB3-92BC-D4A4-D07B-5A35CD7D5948" name="FLIGHT CREW">
+<createdBy>ahamilton</createdBy>
+<createdTime>2013-09-23 19:22:42 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="crewId_1" id="7B7841D3-5D46-AD91-F165-7C7135895027">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:55:58 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flightId" id="2AA58A73-FBE0-6F59-457F-0F2C262B4DC9">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:56:04 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flightRole" id="C54282C9-7A57-4FAF-831D-3EA7D649A3BD">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:56:13 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flightId1" id="080BE85B-E022-122D-2409-55C375CAD734">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-29 00:08:13 UTC</createdTime>
+<generatorID>DADCF992-F206-A97B-648D-039E6BCCB1DE</generatorID>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<referedAttribute>0C56E359-2F60-452B-9854-24EBE64909D6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flightId_1" id="2497851E-7D81-014D-7FD9-EF84D0F7819A">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-29 00:08:13 UTC</createdTime>
+<generatorID>DADCF992-F206-A97B-648D-039E6BCCB1DE</generatorID>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<referedAttribute>5FA5CDD0-8186-B78A-1755-20CB92F24CD2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1241F565-359E-E4D2-4027-09D27B7ED891" name="FLIGHT CREW PK">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:55:32 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B7841D3-5D46-AD91-F165-7C7135895027</attributeRef>
+<attributeRef>2AA58A73-FBE0-6F59-457F-0F2C262B4DC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

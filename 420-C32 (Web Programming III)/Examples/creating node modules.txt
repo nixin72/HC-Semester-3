@@ -1,0 +1,46 @@
+Creating a node module from the Node.js command line
+
+	D:\Web\Web III\lectures>mkdir temp
+
+	D:\Web\Web III\lectures>cd temp
+
+	D:\Web\Web III\lectures\temp>npm init
+	This utility will walk you through creating a package.json file.
+	It only covers the most common items, and tries to guess sensible defaults.
+
+	See `npm help json` for definitive documentation on these fields
+	and exactly what they do.
+
+	Use `npm install <pkg> --save` afterwards to install a package and
+	save it as a dependency in the package.json file.
+
+	Press ^C at any time to quit.
+	name: (temp)
+	version: (1.0.0) 0.0.1
+	description: this is a cool module
+	entry point: (index.js)
+	test command:
+	git repository:
+	keywords:
+	author: Philip
+	license: (ISC) UNLICENSED
+	About to write to D:\Web\Web III\lectures\temp\package.json:
+	
+	{
+	"name": "temp",
+	"version": "0.0.1",
+	"description": "this is a cool module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Philip",
+	"license": "UNLICENSED"
+	}
+
+
+	Is this ok? (yes)
+
+	D:\Web\Web III\lectures\temp>
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Names</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+<body>
+
+<p><strong>Start typing a name in the input field below:</strong></p>
+<form> 
+First name: <input type="text" id="fname">
+</form>
+<p>Suggestions: <span id="txtHint"></span></p>
+<script>
+$(document).ready(function() {
+	$('#fname').keyup(function() {
+		showHint($(this).val()) 
+	});
+});
+
+function showHint(str) {
+    if (str.length == 0) { 
+        $("#txtHint").text("");
+    } else {
+		$.ajax({
+				url: "./php/gethint.php?q="+str,
+				type: "GET",
+				dataType: "text"
+			}).done(function(data) {
+				$('#txtHint').text(data);
+			});
+    }
+}
+
+</script>
+</body>
+</html>

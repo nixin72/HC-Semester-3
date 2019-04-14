@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FF68D922-8413-FF7B-6D24-9DCCEE0C1AD1" mainViewID="0033BD3E-50DE-8F3E-FF15-123EA99EC040">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:01:52 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

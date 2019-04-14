@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B62BDB9F-06A1-0311-CAEB-FA74CCCA8EE7" name="RESERVED FLIGHT">
+<createdBy>ahamilton</createdBy>
+<createdTime>2013-09-23 19:22:53 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="flightId" id="81416AB6-33C5-7C1B-C616-077E0A374A6C">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:57:37 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passengerId" id="79BA7AB9-9269-A358-42B9-20044541ED31">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:57:40 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateOfReservation" id="002B13C9-26EA-D33C-E1DC-F8DC48CA2ED4">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:57:50 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passengerId1" id="C83DBFFB-69E5-8D97-82E4-710621E4C6D5">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:58:49 UTC</createdTime>
+<generatorID>0AFC17ED-D629-C146-501F-A99A71B5193C</generatorID>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<referedAttribute>627D0BD6-1BEA-A9C7-5B9C-1E8AF49741A4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEE7D1CA-B35A-EB3F-91C3-699E73D7E3AD" name="RESERVED FLIGHT PK">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:58:01 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>230FE12D-816E-5531-CE91-C53293ED281E</attributeRef>
+<attributeRef>BD970233-7D3E-CFE7-ED68-2989D86A7A55</attributeRef>
+<attributeRef>230FE12D-816E-5531-CE91-C53293ED281E</attributeRef>
+<attributeRef>BD970233-7D3E-CFE7-ED68-2989D86A7A55</attributeRef>
+<attributeRef>79BA7AB9-9269-A358-42B9-20044541ED31</attributeRef>
+<attributeRef>81416AB6-33C5-7C1B-C616-077E0A374A6C</attributeRef>
+<attributeRef>C83DBFFB-69E5-8D97-82E4-710621E4C6D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

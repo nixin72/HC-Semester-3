@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>myList</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"
+			integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+			crossorigin="anonymous" ></script>
+	<link rel="stylesheet" type="text/css" href="styles/myList.css" >
+</head>
+
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="content" >
+		<h2>Santa's list</h2>
+		<select id="search">
+			<option value="Good">Good</option>
+			<option value="Bad">Bad</option>
+			<option value="Limbo">Limbo</option>
+			<option value="Unknown">Unknown</option>
+		</select>
+		<br /><br />
+		<div id="output">
+			<div id="results"></div>
+			<div id="specific">
+				<div id="display"></div>
+				<div id="cycle">
+					<span id="back">
+						<img src="images/backArrow.png" width="25px" height="25px"/>
+					</span>
+					<span id="progress">0/0</span>
+					<span id="forward">
+						<img src="images/forwardArrow.png" width="25px" height="25px"/>
+					</span><br />
+					<button id="clear">Hide Details</button>
+				</div>
+			</div>
+		</div>
+		<br />
+	</div>
+	<footer>
+		<p>Copyright &copy; 2016 phdumaresq@gmail.com</p>
+		<a href="sources.html">code sources</a>
+	</footer>
+
+	<script src="scripts/displayChildren.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="scripts/snowAnimation.js"></script>
+</body>
+</html>

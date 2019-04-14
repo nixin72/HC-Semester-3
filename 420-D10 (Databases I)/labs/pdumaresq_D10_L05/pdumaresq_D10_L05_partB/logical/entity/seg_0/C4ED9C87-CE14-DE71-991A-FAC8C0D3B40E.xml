@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4ED9C87-CE14-DE71-991A-FAC8C0D3B40E" name="Students">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:47:19 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student_number" id="CE62FFCF-A53A-ABAD-41CD-30694E12FC92">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:47:26 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>773D2E24-0C68-ED68-4A2F-D31D3E348663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_lastName" id="AE572C78-103E-7C9D-A8A4-76EF68EA8D5D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:47:42 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE49AAF2-0848-ECE8-6B7F-8F3E81F7EB2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_firstName" id="F0BC62AF-ADF7-66CD-B9B0-297BFCF991C4">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:47:56 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE49AAF2-0848-ECE8-6B7F-8F3E81F7EB2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_number1" id="09556999-1F46-B098-D77F-9FC16E79C25A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:54:36 UTC</createdTime>
+<generatorID>143339B2-EBC6-035C-1B31-2F116A5F44BF</generatorID>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CE62FFCF-A53A-ABAD-41CD-30694E12FC92</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>773D2E24-0C68-ED68-4A2F-D31D3E348663</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09A7DCD2-5610-3B3C-D92D-BCB3C8785F38" name="Students PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:47:34 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE62FFCF-A53A-ABAD-41CD-30694E12FC92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

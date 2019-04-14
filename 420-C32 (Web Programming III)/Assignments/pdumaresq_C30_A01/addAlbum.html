@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=500, initial-scale=1">
+	<title>Heritage Albums</title>
+	<!--Imported scripts: jquery and bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   
+		integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+		crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+		crossorigin="anonymous">
+	</script>
+	
+	<!--Imported Stylesheets: bootstrap.css and jqueryUI theme-->
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	
+	<!--My stylesheets-->
+	<link rel="stylesheet" type="text/css" href="styles/heritageAlbums.css" />
+</head>
+<body>
+<!------------------------------------------------------------------------------------------------------------
+-------------------------------------Dialogue box for user confirmation---------------------------------------
+------------------------------------------------------------------------------------------------------------->
+<div id="confirm" title="Are you sure you want to add this album?">
+	<p id="confirmAlbum">Album name: </p>
+	<p id="confirmArtist">Artist name: </p>
+	<p id="confirmGenre">Genre name: </p>
+	<p id="confirmCompany">recording company: </p>
+	<p id="confirmCondition">Condition: </p>
+	<p id="confirmYear">year published: </p>
+	<p id="confirmPrice">Album price: </p>
+</div>
+<!------------------------------------------------------------------------------------------------------------
+----------------------------------------------Bootstrap nav bar-----------------------------------------------
+------------------------------------------------------------------------------------------------------------->
+	<nav id="navbar" class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Heritage Albums</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="addAlbum.html">Add Albums</a></li>
+					<li><a href="viewAlbums.html">View Albums</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!------------------------------------------------------------------------------------------------------------
+----------------------------------------------Main page content-----------------------------------------------
+------------------------------------------------------------------------------------------------------------->
+<div class="all">
+	<div id="content">
+		<h1><strong>Add Albums</strong></h1>
+		<form id="addForm" class="form-horizontal">
+			<p class="form-group">
+				<label class="desktop">Album Name: </label>
+				<input type="text" id="albumName"     placeholder="Album name:" />
+			</p>
+			<p class="form-group">
+				<label class="desktop" >Artist Name: </label>
+				<input type="text" id="artistName"    placeholder="Artist:" />
+			</p>
+			<p class="form-group">
+				<label class="desktop">Recoding company: </label>
+				<input type="text" id="companyName"   placeholder="Recording company:" />
+			</p>
+			<p class="form-group">
+				<label class="desktop">Year published: </label>
+				<input type="number" id="yearPublished" placeholder="Year:" />
+			</p>
+			<p class="form-group">
+				<label class="desktop">Album price: </label>
+				<input type="number" id="albumPrice"    placeholder="Price:" />
+			</p>
+			<p class="form-group">
+				<label class="desktop">Album genre: </label>
+				<select id="genreList" class="list dropdown">
+					<option disabled selected>Chose a genre</option>
+					<option id="Country" value="Country">Country</option>
+					<option id="folk" value="folk">folk</option>
+					<option id="Jazz" value="Jazz">Jazz</option>
+					<option id="Oldies" value="Oldies">Oldies</option>
+					<option id="Pop" value="Pop">Pop</option>
+					<option id="Rap" value="Rap">Rap</option>
+					<option id="Rock" value="Rock">Rock</option>
+				</select>
+			</p>
+			<p class="form-group">
+				<label class="desktop">Condition: </label>
+				<select id="conditionList" class="list dropdown">
+					<option disabled selected>Album condition</option>
+					<option id="M"  value="M">Mint</option>
+					<option id="G"  value="G">good</option>
+					<option id="VG" value="VG">Very good</option>
+					<option id="P"  value="P">Poor</option>
+					<option id="VP" value="VP">very Poor</option>
+				</select>
+			</p>
+			
+			<p><br /></p>
+			<input type="button" id="button" value="Add Album" />
+		</form>
+			
+		<div id="footer" class="desktop">
+			<hr />
+			<p><a href="addAlbum.html">Add albums</a>&nbsp; | &nbsp;<a href="viewAlbums.html">Find albums</a></p>
+		</div>
+	</div>
+
+</div>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js">
+	</script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js">
+	</script>
+	<script src="scripts/addAlbums.js">
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+		if (err) {
+			console.log("MY ERROR: " + err.code + " (" + err.message + ")");
+			return;
+		}

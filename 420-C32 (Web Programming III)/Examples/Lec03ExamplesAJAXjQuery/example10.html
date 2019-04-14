@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Top Stories</title>
+<style type="text/css">
+h1 {
+	font-family:arial;
+	color:navy;
+}
+table {
+	border-collapse: collapse;
+	width: 80%;
+}
+p, td	{
+	font-family:arial;
+	font-size:.8em;
+	color:black;
+}
+td {
+	border: 2px solid navy;
+
+}
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+<h1>Top Stories</h1>
+	<form method="get" action="TopStories.php">
+		<table>
+			<colgroup span="1" width="25%" />
+			<colgroup span="1" width="65%" />
+			<tr><td valign="top">
+				<input type="radio" name="agency" value="http://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009" /> CTV<br />
+				<input type="radio" name="agency" value="http://ottawa.ctvnews.ca/rss/ctv-news-ottawa-1.1245493" /> CTV Ottawa<br />
+				<input type="radio" name="agency" value="http://www.cbc.ca/cmlink/rss-canada" /> CBC<br />
+				<input type="radio" name="agency" value="http://www.macleans.ca/news/feed/" /> MacLeans Magazine<br/>
+				<input type="radio" name="agency" value="http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/front_page/rss.xml" /> BBC<br />
+				<input type="radio" name="agency" value="http://rss.canoe.com/CNEWS/WeirdNews/home.xml" /> Canoe Weird<br />
+			</td>
+			<td id="newsCell" valign="top"></td>
+			</tr>
+</table>
+</form>
+<script>
+$(document).ready(function() {
+	$("input[type='radio']").click( function() {
+		newsUpdate($(this).val());
+	});
+});
+
+function newsUpdate(theAgency) {
+	var getStr = "php/TopStories.php?agency=" + theAgency;
+	$.get(getStr, 
+		function(data) { fillNewsInfo(data); }
+	)
+
+//	$.get("php/TopStories.php",
+//		{ agency: theAgency },
+//		function(data) { fillNewsInfo(data); }
+//	)
+
+//	$.post("php/TopStoriesPost.php",
+//		{ agency: theAgency },
+//		function(data) { fillNewsInfo(data); }
+//	)
+}
+
+function fillNewsInfo(news) {
+	$("#newsCell").html("");
+	//news is XML which means it has tags. Very specific format so you can grab the 
+	//tag names and get the information.  "item" is one of the tags
+	var newsItems=news.getElementsByTagName("item");
+	if (newsItems.length > 0) {
+		for (var i=0; i<newsItems.length; ++i) {
+			var curHeadline = newsItems[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+			var curLink = newsItems[i].getElementsByTagName("link")[0].childNodes[0].nodeValue;
+			var curPubDate = newsItems[i].getElementsByTagName("pubDate")[0].childNodes[0].nodeValue;
+			var curDesc = newsItems[i].getElementsByTagName("description")[0].childNodes[0].nodeValue;
+			var curStory = "<a href='" + curLink + "'>" + curHeadline + "</a><br />";
+			curStory += "<span style='color: gray'>" + curPubDate + "</span><br />";
+			curStory += curDesc + "<br />";
+			$("#newsCell").append(curStory);
+		}
+	}
+	else
+		$("#newsCell").html("RSS feed does not contain any items.");
+}
+</script>
+</body>
+</html>

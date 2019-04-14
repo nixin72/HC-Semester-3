@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76701DDB-4B8B-6EF4-85EE-8E19B6B88574" name="manual">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:34:40 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="catalogue-number" id="5D745FA6-190E-27C5-4EE7-6045D4155B1D">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:40:45 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="EE04BD00-DE1C-788F-700F-F69827FEE4B0">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:40:52 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrower-number" id="9F9FF460-9D20-837C-4B91-4BD29A06CAAF">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 23:12:32 UTC</createdTime>
+<generatorID>D6BC774A-5CA1-C58F-C72F-D4E8917F7330</generatorID>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B7B2C0C5-5E10-F8CA-DEFA-6C13E79E9F35</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="catalogue-number1" id="6CA7E6F5-6864-338C-6500-B15A59C7A6DE">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-28 23:55:50 UTC</createdTime>
+<generatorID>9EDAE848-8C0C-B2CE-E460-E4FE852119BD</generatorID>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<referedAttribute>5ECC9BE4-91DB-A66B-41E1-FF37D39876AA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2BFD887-A47B-D088-89C6-A4B5CA99366C" name="manual_PK">
+<createdBy>Anne</createdBy>
+<createdTime>2010-09-28 22:40:51 UTC</createdTime>
+<ownerDesignName>Library Logical Data Model</ownerDesignName>
+<engineerTo>
+<item key="1E2CAD39-DB75-972B-EEE3-FB16FE7AE1FE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D745FA6-190E-27C5-4EE7-6045D4155B1D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

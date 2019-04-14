@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B2A34FA-7BFF-1BC9-D99E-9E593071E25D" name="HVKPET-VACCINATION">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>1C498304-9282-E918-AC6C-B95AAFB2449A</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkpet_vaccination</ordsAlias>
+<abbreviation>PVac</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PET_PET-PET_NUMBER" id="7A03CEDE-994D-138A-E5F6-1DCB5CBBF781">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>07C9C68D-9B33-6129-BF17-6468DAAF8E8C</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PVac_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B7EC3E06-DFFB-91BD-999B-677322101864" referredColumn="72A797E6-90C3-4A14-0418-A4162618D906"/>
+</associations>
+</Column>
+<Column name="VAC_VACCINATION_NUMBER" id="B5BAC401-8CF6-4A93-A3E3-7D2EF7E7E609">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>9187F096-E6B2-B90C-F59C-9D124A5AFD6D</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PVac_VAC_VAC_NUM</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DC80017B-77E7-05AB-806C-6E325D53C382" referredColumn="040D9D4A-BCDC-4256-1979-FB2EA5DCAFDA"/>
+</associations>
+</Column>
+<Column name="VACCINATION_EXPIRY_DATE" id="34FBA552-6EF2-C5A0-8B3F-903169ECF97B">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>8873F4FD-4A82-8432-3183-C3F67B89FC5F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8536124B-D586-3B8F-A3D5-BE690C28B38F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3FA5B08-F965-2324-D63A-0A64AD7A46D7" name="HVKPET-VACCINATION_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>E311C47E-9D6D-29AB-4C8C-2A18AC85FD3F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A03CEDE-994D-138A-E5F6-1DCB5CBBF781"/>
+<colUsage columnID="B5BAC401-8CF6-4A93-A3E3-7D2EF7E7E609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54EE298B-0DC5-BAA5-D387-4BC30216B991" name="PVac_PET_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D89BC5B5-CF9E-AADB-792C-D41D36399FBF</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A03CEDE-994D-138A-E5F6-1DCB5CBBF781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36EF2873-EA8B-8068-794E-0966D1317762" name="PVac_VAC_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>9C9C71C0-9C89-B750-B2A5-EB62EE290750</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5BAC401-8CF6-4A93-A3E3-7D2EF7E7E609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

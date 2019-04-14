@@ -1,0 +1,41 @@
+
+A - atomicity 
+C - consistency 
+I - integrity
+D - durable
+
+Atomicity: 
+Cannot be broken down any more than it already is.
+
+Integrity: 
+A real world state is reflected by collections of values in the tables of the DBMS
+
+Isolation: To make precise what it means to havbe no data interference, we say thatr an execution is serializable when:
+	There exists some serial execution of the same transactions which has the same final state
+		Hopefully, the real execution runs faster than the serial one.
+	
+NB: different serial txn orders may behace differently; we ask that some serial order produces the given state
+	Other serial orders may give different final states
+
+Consistenct: 
+Each transaction can be written on the assumption that all integrity constrainst hold in the data, before the transaction runs
+It must make sure that its changes leave the integrity constrainst still holding
+A transaction that does this is called consistent
+
+Locks:
+You can lock a whole database to prevent other people from accessing the same data. 
+You can lock a whole database or you can just lock a certain, or in some databases you can lock just a single row or column. 
+This will maintain data integrity since only one person can modify the data at a given time. 
+
+Will prevent code from running asynchronously
+A commit will release any locks
+
+When lock A needs lock B and lock B needs lock A, this is a deadlock. 
+options for solving deadlock:
+	1. Both people lose, the locks are dropped and they need to restart
+	2. all locks get 
+
+Can set savepoints for rollbacks. 
+
+What if there was some way to keep out data nice and organized
+But still provide a nice view for users

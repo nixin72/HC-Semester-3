@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67E1FD2C-B59D-2F17-B7CD-A03E091423C5" name="SCHEDULED FLIGHT">
+<createdBy>ahamilton</createdBy>
+<createdTime>2012-09-24 18:21:10 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="flightId" id="0C56E359-2F60-452B-9854-24EBE64909D6">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:54:14 UTC</createdTime>
+<generatorID>B1C02A22-7708-1498-6F0D-6D44838073E9</generatorID>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<referedAttribute>428FBB37-2A91-25C9-3B83-35FB60C92754</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flightId_1" id="5FA5CDD0-8186-B78A-1755-20CB92F24CD2">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:56:36 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departureCity" id="757CF5CA-3EC0-13B6-4AC1-F8CE68018D50">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:56:45 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="arrivalCity" id="82C93EC3-7506-7A81-381B-1DB36222ECD3">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:56:51 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departureTime" id="40DE1C04-782D-87F0-05AD-560064FC854D">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:56:55 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArrivalTime" id="D463AD4C-E129-ACF3-B259-ACC9D1B9B039">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:57:00 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departureDate" id="CF2C85D1-C4D8-FBE4-DA14-55270B8F41A4">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:57:04 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="arrivalDate" id="D39A629E-0ADD-294E-EAAB-C63FC1B8807F">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:57:08 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58A1DC98-BF3D-FC36-8AD5-AF213CD5D6EC" name="SCHEDULED FLIGHT PK">
+<createdBy>phdum</createdBy>
+<createdTime>2016-09-27 01:54:12 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C56E359-2F60-452B-9854-24EBE64909D6</attributeRef>
+<attributeRef>5FA5CDD0-8186-B78A-1755-20CB92F24CD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

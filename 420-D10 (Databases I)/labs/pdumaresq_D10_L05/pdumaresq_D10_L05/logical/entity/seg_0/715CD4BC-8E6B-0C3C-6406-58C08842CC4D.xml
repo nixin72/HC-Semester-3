@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="715CD4BC-8E6B-0C3C-6406-58C08842CC4D" name="Book">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:51:00 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book_id" id="F78A460F-FDD8-8E32-E3D1-9F9BD078708D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:51:40 UTC</createdTime>
+<notes>Primary UID	The Dewey code or other book identifier.</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4982F25-CC28-7950-70FF-3961F0C89165</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="7F1866BB-8B58-A080-1E25-581CC9147715">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:54:19 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>473BE303-CC00-C5F8-CF1F-33C154688AAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_last_name" id="17538EF1-7F0D-AF3C-CB65-EA999C4C99D8">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:54:49 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE49AAF2-0848-ECE8-6B7F-8F3E81F7EB2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_first_name" id="7BE8A9B0-4789-D888-EB6E-128CEC31DA76">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:55:14 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE49AAF2-0848-ECE8-6B7F-8F3E81F7EB2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="E8500EF6-5998-1C97-94DE-06F8C61BD67B">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:55:30 UTC</createdTime>
+<notes>Librarian&apos;s personal rating of the book, from 1 (poor) to 10 (great).</notes>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49505845-5805-8CD7-3718-D272B399ADCF" name="Book PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 14:53:19 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05</ownerDesignName>
+<engineerTo>
+<item key="23ACC83A-17CE-ED05-9086-FFC4DDF796F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F78A460F-FDD8-8E32-E3D1-9F9BD078708D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

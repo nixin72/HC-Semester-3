@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AD951E5-D03B-74FA-FA11-94AADFEB2760" name="HVKPET-FOOD">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>8B18D980-F83D-A419-261C-CF82F9DBADF1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkpet_food</ordsAlias>
+<abbreviation>PF</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_PET_RES_NUMBER" id="4C8904F0-1EAB-CF50-A7E8-E1FA2341D75D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D4F71EFF-0EA1-A181-1C06-DAD0B4A7A643</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PF_PR_PET_RES_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C23CBCEC-42E4-94EB-E690-D5F0586CE7D6" referredColumn="42BE6EDC-5F11-8A19-3ECC-261164C6415F"/>
+</associations>
+</Column>
+<Column name="PR_RUN_RUN_NUMBER" id="E6B376EE-F588-F8AE-1123-A619AFB00460">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D42D2683-86DC-D46D-D773-6458044E0D7E</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PF_PR_RUN_RUN_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C23CBCEC-42E4-94EB-E690-D5F0586CE7D6" referredColumn="86134942-5EF7-03C6-B108-14A0FECD2C13"/>
+</associations>
+</Column>
+<Column name="PR_RES_RESERVATION" id="E8211B9A-C845-2B54-E146-3E00E975F75D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>A285CF87-E2C4-339F-6112-6157F72309C1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PF_PR_RES_RESERVATION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C23CBCEC-42E4-94EB-E690-D5F0586CE7D6" referredColumn="9D73AEB4-A540-4AF1-8883-31954F1BDDBD"/>
+</associations>
+</Column>
+<Column name="PR_PET_PET-PET_NUMBER" id="C954C61B-36CE-5D0D-F379-3D5621E04A7D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>6AAFEB3C-0C4F-CD5D-7ED0-975065C04A9C</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PF_PR_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C23CBCEC-42E4-94EB-E690-D5F0586CE7D6" referredColumn="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</associations>
+</Column>
+<Column name="PET_FOOD_FREQUENCY" id="F2586B0E-A1A3-F2EF-7351-EA02D1C9740C">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BF6B8FCB-5DCA-B0F1-EC8A-046B0362519B</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PF_PET_FOOD_FREQUENCY</notNullConstraintName>
+</Column>
+<Column name="PET_FOOD_QUANTITY" id="1C41290F-104B-07AD-B162-102CBF4754FD">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BD5E6F23-F4B7-65A5-408A-15AF85AEE5CA</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FD_FOOD_NUMBER" id="10640F11-C4FB-A490-3A59-B66802DBBFF8">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>496D76EA-1162-A4CE-A9E2-9F8AE09517A6</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PF_FD_FOOD_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="523B8009-7F73-3537-F6FF-2E6486FE7828" referredColumn="6573F2D1-F97F-BEB9-ECB5-659769DE40D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D235BE30-5104-9C13-C788-DCAD44312EE6" name="HVKPET-FOOD_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B86D7DED-D931-E61A-14A6-87C10A6B7797</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C8904F0-1EAB-CF50-A7E8-E1FA2341D75D"/>
+<colUsage columnID="E6B376EE-F588-F8AE-1123-A619AFB00460"/>
+<colUsage columnID="E8211B9A-C845-2B54-E146-3E00E975F75D"/>
+<colUsage columnID="C954C61B-36CE-5D0D-F379-3D5621E04A7D"/>
+<colUsage columnID="10640F11-C4FB-A490-3A59-B66802DBBFF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B05248BD-241E-D964-723C-4D205C704F0E" name="PF_PR_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>2239E3FD-2C19-6543-4407-45DD2E4B7910</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C8904F0-1EAB-CF50-A7E8-E1FA2341D75D"/>
+<colUsage columnID="E6B376EE-F588-F8AE-1123-A619AFB00460"/>
+<colUsage columnID="E8211B9A-C845-2B54-E146-3E00E975F75D"/>
+<colUsage columnID="C954C61B-36CE-5D0D-F379-3D5621E04A7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D479B380-7DB6-4460-1949-E27E518850BD" name="PF_FD_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>A692669F-4AE1-E127-FFB7-14A79C023DF4</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10640F11-C4FB-A490-3A59-B66802DBBFF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

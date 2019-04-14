@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF3BA309-53B5-566B-D151-845A7F7845F1" name="Services">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-09-21 16:00:03 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Invoice-Number" id="C509ADC9-77E4-5F9D-82D2-4AC5511E5FCC">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:04:57 UTC</createdTime>
+<generatorID>93B74D2E-9DA5-EDC7-865A-38AC78792A82</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>3EA38B45-EA50-4121-9D02-75F0FF5941CF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="0306F99B-E4DE-89A5-6146-574D3AECF9AA">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-04 18:20:50 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service-Type" id="A8F95056-1735-39F7-B485-EC6FCF9A404E">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:36:25 UTC</createdTime>
+<comment>Baths&lt;br/&gt;Grooming&lt;br/&gt;Walking&lt;br/&gt;Playtime&lt;br/&gt;Medication</comment>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12198275-75F2-AC9D-B700-BFCF3CB3DFD5" name="Services PK">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:36:33 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8F95056-1735-39F7-B485-EC6FCF9A404E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

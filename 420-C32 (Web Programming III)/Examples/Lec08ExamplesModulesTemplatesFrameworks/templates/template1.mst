@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Static Page</title>
+	</head>
+	<body>
+		<h1>This is a header</h1>
+		<p>{{name}}'s Mustache template code!</p>
+		<h3>{{ease}}  is the level of ease this is done with</h3>
+	</body>
+</html>
+

@@ -1,0 +1,22 @@
+Priveledges and deployment concerns
+Objectives:
+- Explain the oracle priveldge mode
+	- Why you'd use it:
+		- Benefits 
+		- Use cases
+
+Recall: Databases and users
+	- So far: 
+		- Each of you has a personal Oracle account
+		- You create your own tables
+		- You play with your own data
+	- reality:
+		- Many users
+		- Many applications
+		- Many databases
+	
+Goal: 
+	- Give access to applications
+	
+Priveledges in Oracle	
+	

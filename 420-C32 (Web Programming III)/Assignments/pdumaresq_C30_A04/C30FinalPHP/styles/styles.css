@@ -1,0 +1,86 @@
+body {
+    background: no-repeat linear-gradient(#6b92b9, #ddf);
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 55%;
+    font-family: "Rockwell Extra", sans-serif;
+}
+
+#canvas {
+    z-index: -1;
+    display: block;
+    position: absolute;
+}
+
+#content {
+    width: 80%;
+    height: 100%;
+    margin: 2% auto 0 auto;
+    background-color: white;
+    padding: 2% 0 5% 0;
+    border: solid medium black;
+    border-radius: 10px;
+}
+
+#searchForm {
+    width: 50%;
+    margin: auto;
+}
+
+#addForm {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    font-size: 1.5em;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: paleturquoise;
+    border: thin solid #58ccFF;
+}
+
+option {
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#editChild {
+    text-align: center;
+}
+
+select {
+    width: 65%;
+    height: 30px;
+    font-size: 1em;
+    text-align: left;
+    border-radius: 5px;
+}
+
+#errors {
+    width: 50%;
+    border: thin solid red;
+    margin: 5% auto;
+    padding: 2% 3%;
+    font-size: 1.5em;
+}

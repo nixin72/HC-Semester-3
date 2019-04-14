@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="marriage" directorySegmentName="seg_0" id="74E5B505-46CD-372C-B083-A1A86F86864A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:27:25 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>is married to</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>61AD2A25-E25B-D98F-873E-9682B93FB610</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>61AD2A25-E25B-D98F-873E-9682B93FB610</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

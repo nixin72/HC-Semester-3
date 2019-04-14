@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4A1F318-6DB5-8300-A564-3324781E253D" name="PET_RESERVATION_DISCOUNT">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:56:06 UTC</createdTime>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DISCOUNT_NUMBER" id="EB27EF88-BD4F-925D-3B4D-2A0F7A19947B">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:56:29 UTC</createdTime>
+<generatorID>9DC27502-3A4A-5739-2294-8D2863199D11</generatorID>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>9F301187-060B-7BE3-F3C4-86A1C154DD96</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_RES_NUMBER" id="12E6DEA7-4500-FE3A-BCA3-5DA0C09968E2">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:56:57 UTC</createdTime>
+<generatorID>8D3C0E7B-7FE1-D87E-4CBD-1574AE0D26FF</generatorID>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>F4239631-99DF-DA40-2A93-D5AFBB21E11A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN_NUMBER" id="CD2015DA-163B-4857-C0A3-1E9067DEF0A2">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:56:57 UTC</createdTime>
+<generatorID>8D3C0E7B-7FE1-D87E-4CBD-1574AE0D26FF</generatorID>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>540D74D4-76CE-E40A-098A-BAA51591BC1F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVATION" id="3072572A-C1E2-9036-1516-12A3BEB14420">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:56:57 UTC</createdTime>
+<generatorID>8D3C0E7B-7FE1-D87E-4CBD-1574AE0D26FF</generatorID>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>B1F21F65-83A9-9BCE-73CF-D9C1C6233363</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_NUMBER" id="D629F5C1-2CAA-E80A-2A84-370E4D1ACC16">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:19:18 UTC</createdTime>
+<generatorID>8D3C0E7B-7FE1-D87E-4CBD-1574AE0D26FF</generatorID>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>94C0E4CF-1D65-896D-056A-58A7AFEAF2D6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F07516A4-BFD8-07A2-9999-D961FA6832D0" name="PET_RESERVATION_DISCOUNT PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 16:56:29 UTC</createdTime>
+<ownerDesignName>Richard&apos;s Model</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB27EF88-BD4F-925D-3B4D-2A0F7A19947B</attributeRef>
+<attributeRef>12E6DEA7-4500-FE3A-BCA3-5DA0C09968E2</attributeRef>
+<attributeRef>CD2015DA-163B-4857-C0A3-1E9067DEF0A2</attributeRef>
+<attributeRef>3072572A-C1E2-9036-1516-12A3BEB14420</attributeRef>
+<attributeRef>D629F5C1-2CAA-E80A-2A84-370E4D1ACC16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4114E2A7-8ACD-6C6A-DDE3-E924B548B592" name="HVKVETINARIAN">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>8C84DC2D-25C4-CFF2-81D8-3F85D26E4B09</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>VET</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VET_NUMBER" id="D9BE9B4B-3A8F-CB30-73FB-C0AFDD84BFE9">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CDBDB362-BC80-C37D-6BA0-F47B2CFC57B6</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VET_VET_NUMBER</notNullConstraintName>
+</Column>
+<Column name="VET_FIRST_NAME" id="0DFE1D18-3CEF-AE07-AAE9-65DAE8BB5D17">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>F589E347-3EB5-16F3-3FF3-8844F4A26DF0</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VET_VET_FIRST_NAME</notNullConstraintName>
+</Column>
+<Column name="VET_LAST_NAME" id="C687EB54-BB96-C2E5-8C7E-1D4BD2A5E52D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>468797B0-A37C-6FEB-C944-90A5C33FBEC3</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_VET_VET_LAST_NAME</notNullConstraintName>
+</Column>
+<Column name="VET_PHONE" id="17FB9AA9-791D-AB4D-8096-1227A5256F11">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>E5CC9B16-A796-300A-063C-2B8210C1A337</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0CBD311E-2BBD-6998-CDA6-553ED7E8B2AF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VET_STREET" id="7E684D69-A2C0-3406-81E7-B9AAA0573579">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>8E3FE5A0-5D36-0BC3-616C-F5C2DD13EBD8</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7921091D-723B-0B30-E714-00AACDF80D52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VET_CITY" id="B3787028-31BA-129B-C011-5AE181987045">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>19173DED-789D-9DB3-D783-FEC53410EDE4</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D6CCC860-B6BD-78ED-F0BD-82D9A71C3264</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VET_PROVINCE" id="ECB234C3-2061-BC0E-9085-9EAD1EE5D03C">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>E6DD04DF-8699-C281-1D9C-D3396CEA5A4E</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<constraintName>CK_VET_VET_PROVINCE</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>984E7E21-8E73-F3CE-2D92-BDD8864C52BC</domain>
+<defaultValue>QC</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VET_POSTAL_CODE" id="D1236F35-5AB8-FC1F-7759-57DD80249D71">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B75195B9-8938-D031-72B4-1BBA75D841AA</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD79CFF4-5B69-6411-3877-3E5D406C92E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A52F4100-AAFA-6F1A-8668-EA4E75AD3D27" name="HVKVETINARIAN_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>1E3390B3-BCD8-D1A4-31AF-80B41C09AE10</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9BE9B4B-3A8F-CB30-73FB-C0AFDD84BFE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

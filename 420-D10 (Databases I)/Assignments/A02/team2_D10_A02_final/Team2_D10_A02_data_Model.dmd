@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Team2_D10_A01_data_Model" id="06B816D6-F8F8-3DB9-B0F8-9105E8BF5582" version="3.5">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-09-21 15:57:51 UTC</createdTime>
+<ownerDesignName>HVK Revised Data Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>06B816D6-F8F8-3DB9-B0F8-9105E8BF5582</designId>
+</OSDM_Design>

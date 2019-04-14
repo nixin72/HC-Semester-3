@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3BC2781-4AB2-BFF2-71B5-1C7D998C0CF8" name="HVKDISCOUNT">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>9DF8266C-CC9F-3489-9CC5-8142255B5EE1</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>DIS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCOUNT_NUMBER" id="B95B9C79-631C-6557-FE15-FE2B289CFF37">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>9F301187-060B-7BE3-F3C4-86A1C154DD96</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DIS_DISCOUNT_NUMBER</notNullConstraintName>
+</Column>
+<Column name="DISCOUNT_DESCRIPTION" id="7FF4E0E9-31AA-6028-5F90-147A1E864E2A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>FF9C698B-AF0A-A004-DEE7-540521B76E1F</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB57BAD5-DABF-78F4-5014-CFFACA397A76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DIS_DISCOUNT_DESCRIPTION</notNullConstraintName>
+</Column>
+<Column name="DISCOUNT_PERCENTAGE" id="BA8C0CC5-526A-7B92-9E2C-A2F5919CE61B">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>82C999D2-5726-3B1F-4DFE-94CA1153392C</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B1446CF7-EFD9-79EF-2871-B8CCADFAE6E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DIS_DISCOUNT_PERCENTAGE</notNullConstraintName>
+</Column>
+<Column name="DISCOUNT_TYPE" id="6D9C2A85-05C2-5A93-CA25-37E85F394F2F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>A899A921-ECFA-0FAE-6C5F-C9F6FCF9D24C</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_DIS_DISCOUNT_TYPE</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56A9DC70-331E-847F-D3F4-35C4FAA6C5CE" name="HVKDISCOUNT_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>BA98071B-36D0-81B4-8C6B-F327F0692332</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B95B9C79-631C-6557-FE15-FE2B289CFF37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

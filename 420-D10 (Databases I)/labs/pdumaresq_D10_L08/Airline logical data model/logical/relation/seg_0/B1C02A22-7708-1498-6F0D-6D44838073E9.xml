@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="B1C02A22-7708-1498-6F0D-6D44838073E9">
+<createdBy>ahamilton</createdBy>
+<createdTime>2012-09-24 18:23:49 UTC</createdTime>
+<ownerDesignName>Airline logical data model</ownerDesignName>
+<engineerTo>
+<item key="F53B47B5-1817-0BDE-E188-359F03F68E70" value="true"/>
+</engineerTo>
+<sourcePk>4D5A505E-8F24-959B-FFB4-3566229514EA</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>is scheduled on</nameOnSource>
+<nameOnTarget>is scheduled for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F757B420-70D4-2F7A-9AEE-A544434A04D3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67E1FD2C-B59D-2F17-B7CD-A03E091423C5</targetEntity>
+<transferable>true</transferable>
+</Relation>

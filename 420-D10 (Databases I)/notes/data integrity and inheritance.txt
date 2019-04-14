@@ -1,0 +1,33 @@
+varchar = specific length
+char = range of lengths
+
+
+DB deletion rules
+	- cascade
+		- Does it to all other places where that value exists
+	- No Action (Just do it)
+		- Just does something without maintaining integrity elsewhere
+	- Default
+		-
+	- Null value
+		- Set's other references to null values
+	- Restricted
+		- Prevents you from decresing DB integrity
+	
+	
+	
+Proper subtype tables	
+	
+												Person
+			sin		Name	Address			Gender	Date of birth	isEmployee	isAlumni	isStudent
+			1234	Philip	123 road road	Male	04/08/98		true		false		true
+	 
+    
+	College Employee							Alumus									Student
+Salary		date-hired					Degree	Year	designarion					prog of study
+17.49		05/30/16					CS		2018	honor roll					Computer Science	
+
+
+Faculty				Staff													graduate				undergrad
+department			position												gpa-score				high school
+CS					student-employee										3.75					D'arcy McGee

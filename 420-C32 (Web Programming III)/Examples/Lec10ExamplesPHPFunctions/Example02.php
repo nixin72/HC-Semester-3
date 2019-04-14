@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Function Example</title>
+</head>
+
+<body>
+<?php
+function averageNumbers($num1, $num2, $num3) {
+    $sumOfNumbers = $num1 + $num2 + $num3;
+     global $a;
+     ++$a;
+    $average = $sumOfNumbers / 3;
+    return $average;
+}
+?>
+<h2>Number averages</h2>
+<?php
+$a = 2;
+$b = 5;
+$c = 8;
+$num1 = 200;
+?>
+<p>Before the call the numbers are: <br />
+    <?php
+    echo "$a <br />";
+    echo "$b <br />";
+    echo "$c </p>";
+    ?>
+<p>After the call the average is:
+    <?php
+    $returnValue = averageNumbers($a, $b, $c);
+    echo "$returnValue </p>";
+    echo "Num is: $num1";
+    ?>
+<p>And the numbers are:<br/>
+    <?php
+    echo "$a <br />";
+    echo "$b <br />";
+    echo "$c </p>";
+    ?>
+<p>
+</body>
+</html>

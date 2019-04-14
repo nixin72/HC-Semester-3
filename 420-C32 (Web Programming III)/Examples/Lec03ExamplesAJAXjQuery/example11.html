@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Albums</title>
+<style type="text/css">
+h1 {
+	font-family:arial;
+	color:navy;
+}
+.titleDisp {
+	font-family: Verdana;
+	font-size: 1.1em;
+	color: #22cccc;
+}
+.artistDisp {
+	font-family:Verdana;
+	font-size:.9em;
+	color:black;
+}
+.albumBlock {
+	border: 2px solid blue;
+	margin: 10px;
+	padding: 5px;
+}
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+<h1>Traverse XML</h1>
+<input type="button" value="Get Data" />
+<div id="putFile"></div>
+
+<script>
+$(document).ready(function() {
+	$("input").click( function() {
+		$.get("php/getxml.php",
+			function(data) { displayData(data); 
+		});
+	});
+});
+
+function displayData(jazz) {
+	$("#putFile").html("");
+	
+	var jazzItems=jazz.getElementsByTagName("album");
+	if (jazzItems.length > 0) {
+		for (var i=0; i<jazzItems.length; ++i) {
+			var curTitle = jazzItems[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+			var curArtist = jazzItems[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue;
+			var curCat = jazzItems[i].getAttribute('category');
+			var curAlbum = "<span class='titleDisp'>" + curTitle + " (" + curCat + ")</span><br />";
+			curAlbum += "<span class='artistDisp'>" + curArtist + "</span><br />";
+			$("#putFile").append(curAlbum);
+		}
+	}
+	else
+		$("#putFile").html("No albums in file.");
+}
+</script>
+</body>
+</html>

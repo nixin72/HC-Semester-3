@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A456298-63A8-D551-3167-2DB1FEFC7F8C" name="HVKKENNEL-LOG">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>7E2FB86D-D77B-379F-43B4-2BE78E617C05</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<ordsAlias>hvkkennel_log</ordsAlias>
+<abbreviation>KL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_PET_RES_NUMBER" id="B4021FDA-FA59-9DBC-6268-D7F02EE22F94">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>FCF5E51D-5F07-C047-C323-BEF2E37A4468</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_PR_PET_RES_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6B07FCD7-1C64-295D-CF4E-FE6910961138" referredColumn="42BE6EDC-5F11-8A19-3ECC-261164C6415F"/>
+</associations>
+</Column>
+<Column name="PR_RUN_RUN_NUMBER" id="A1023A9C-1808-6127-EAD7-BBF190839AE7">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>FDBB64C5-166A-C1F8-8056-295C4B2551A0</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_PR_RUN_RUN_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6B07FCD7-1C64-295D-CF4E-FE6910961138" referredColumn="86134942-5EF7-03C6-B108-14A0FECD2C13"/>
+</associations>
+</Column>
+<Column name="PR_RES_RESERVATION" id="F682EEA7-9F47-6B3C-84F7-22110E8D097F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>1204D08E-D465-8551-E671-0EB0EDA8A5CD</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_PR_RES_RESERVATION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6B07FCD7-1C64-295D-CF4E-FE6910961138" referredColumn="9D73AEB4-A540-4AF1-8883-31954F1BDDBD"/>
+</associations>
+</Column>
+<Column name="PR_PET_PET-PET_NUMBER" id="A3829E95-1379-FAF4-A0FD-AD607AFFE71F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>56BA22B4-7C0D-E038-0A85-66A0ECC69337</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_PR_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6B07FCD7-1C64-295D-CF4E-FE6910961138" referredColumn="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</associations>
+</Column>
+<Column name="KENNEL_LOG_DATE" id="4D2D64A9-D9C1-3733-659F-43C5A8649657">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>5AFE47F1-1729-E5CE-D88C-AD19B80F5727</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8536124B-D586-3B8F-A3D5-BE690C28B38F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_KENNEL_LOG_DATE</notNullConstraintName>
+</Column>
+<Column name="KENNEL_LOG_SEQUENCE_NUMBER" id="580BFD21-18FD-3ED0-2B4D-EB7AC8CC5304">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>9EBEBDB8-4E06-FDC7-AD7F-7864FB80D0FF</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_K_LOG_SEQ_NUM</notNullConstraintName>
+</Column>
+<Column name="KENNEL_LOG_NOTES" id="86C1C162-4DEB-7BD2-E1E1-6413DACE7E6F">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>93C5FBA8-6013-6D38-8E9C-2C420ADB7E86</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB57BAD5-DABF-78F4-5014-CFFACA397A76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_KL_KENNEL_LOG_NOTES</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97538A26-247F-3E21-D4A0-BA65CCEC8F01" name="HVKKENNEL-LOG_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>DD115224-3DA7-E771-7B25-14D200BD491B</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4021FDA-FA59-9DBC-6268-D7F02EE22F94"/>
+<colUsage columnID="A1023A9C-1808-6127-EAD7-BBF190839AE7"/>
+<colUsage columnID="F682EEA7-9F47-6B3C-84F7-22110E8D097F"/>
+<colUsage columnID="A3829E95-1379-FAF4-A0FD-AD607AFFE71F"/>
+<colUsage columnID="4D2D64A9-D9C1-3733-659F-43C5A8649657"/>
+<colUsage columnID="580BFD21-18FD-3ED0-2B4D-EB7AC8CC5304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA755473-DC03-72D4-664F-BDF5180553BF" name="KL_PR_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>2F7D3FC3-BA53-2DDC-D323-BF91A1F29F17</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4021FDA-FA59-9DBC-6268-D7F02EE22F94"/>
+<colUsage columnID="A1023A9C-1808-6127-EAD7-BBF190839AE7"/>
+<colUsage columnID="F682EEA7-9F47-6B3C-84F7-22110E8D097F"/>
+<colUsage columnID="A3829E95-1379-FAF4-A0FD-AD607AFFE71F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

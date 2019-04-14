@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="063E6554-AD82-ACEC-09DD-E13818B3CD8C" name="PET">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:02:59 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PET</shortName>
+<subtypesRefType>Arc implementation</subtypesRefType>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PET_NUMBER" id="269B3CD5-3C31-164E-05FD-D3454CD4C68E">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:04 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_NAME" id="64E74DCE-B277-3134-69A1-783A419745FC">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:12 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_SEX" id="CB2C4632-7341-67FC-77EA-6C9379E18D04">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:21 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>E211C479-89B0-3801-0DF1-133BDD76F047</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_FIXED" id="4F8E3C0A-A00B-8FCF-1729-8B702BA5EA9D">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:29 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B12DC9BC-7C4E-EF3E-1C30-461C1C4CA16B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_BREED" id="A21C3253-7A73-8169-B3EB-B95F5FFFCC78">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:38 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>88C95EC3-9406-1D75-EF5F-04A144621F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_BIRTHDATE" id="3BB0B31F-E5ED-4A71-21B0-80E87DEA3829">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:45 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8536124B-D586-3B8F-A3D5-BE690C28B38F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PET_PICTURE" id="5545D112-DFB2-5FA5-ABF2-5407C721EB56">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:18:51 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VET_NUMBER" id="19DBF14B-FAFD-5571-2AA8-907E2D3E81C6">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:21:45 UTC</createdTime>
+<generatorID>8FBB97E7-5321-2A1A-78C2-86BA5455CA60</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CDBDB362-BC80-C37D-6BA0-F47B2CFC57B6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER_NUMBER" id="CEDEF3EC-9596-195B-7974-8E64B79A93AC">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:25:57 UTC</createdTime>
+<generatorID>368103CE-1283-F307-B0AD-8E18FDB5F079</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<referedAttribute>53E0A549-5B5A-3D3C-C5FC-B224727D3F64</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC98A8B8-DD2B-3B9E-6905-AABB7DEEEA2E" name="PET PK">
+<createdBy>1603452</createdBy>
+<createdTime>2016-10-18 17:19:07 UTC</createdTime>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<engineerTo>
+<item key="3D61892A-ED55-0AE3-76A5-7129B997BA59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>269B3CD5-3C31-164E-05FD-D3454CD4C68E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C0442B0-B417-9612-4A5A-0430F9933B75" name="HVKPET_RESERVATION_DISCOUNT">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>B4A1F318-6DB5-8300-A564-3324781E253D</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<abbreviation>PRD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIS_DISCOUNT_NUMBER" id="D519EEEC-5B54-7A40-A75B-53CBED6E2E34">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>EB27EF88-BD4F-925D-3B4D-2A0F7A19947B</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRD_DIS_DISCOUNT_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="9C8D1314-92FD-6C24-CF51-CC54D3DD3736" referredColumn="B95B9C79-631C-6557-FE15-FE2B289CFF37"/>
+</associations>
+</Column>
+<Column name="PR_PET_RES_NUMBER" id="64EFA77B-533E-2379-A67C-B4B626937D7A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>12E6DEA7-4500-FE3A-BCA3-5DA0C09968E2</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRD_PR_PET_RES_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DC7FED71-F096-7F5F-BC6F-ECFF8114033B" referredColumn="42BE6EDC-5F11-8A19-3ECC-261164C6415F"/>
+</associations>
+</Column>
+<Column name="PR_RUN_RUN_NUMBER" id="EFEAA3B7-041C-F0AA-C361-0AC4BEA56D3A">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>CD2015DA-163B-4857-C0A3-1E9067DEF0A2</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRD_PR_RUN_RUN_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DC7FED71-F096-7F5F-BC6F-ECFF8114033B" referredColumn="86134942-5EF7-03C6-B108-14A0FECD2C13"/>
+</associations>
+</Column>
+<Column name="PR_RES_RESERVATION" id="9E6908BF-F24B-18A1-28EE-00D9CA9F5866">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>3072572A-C1E2-9036-1516-12A3BEB14420</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRD_PR_RES_RESERVATION</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DC7FED71-F096-7F5F-BC6F-ECFF8114033B" referredColumn="9D73AEB4-A540-4AF1-8883-31954F1BDDBD"/>
+</associations>
+</Column>
+<Column name="PR_PET_PET-PET_NUMBER" id="62C19C2C-62B2-276C-4254-127701E909A3">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>D629F5C1-2CAA-E80A-2A84-370E4D1ACC16</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>56B55C2F-727C-4C1F-7D3E-834956C430B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRD_PR_PET_PET-PET_NUMBER</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DC7FED71-F096-7F5F-BC6F-ECFF8114033B" referredColumn="AE2FF6B1-0751-45C2-01EB-8964E2DD14DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9A0EB59-303C-4B9C-C492-D785FB044E04" name="HVKPET_RESERVATION_DISCOUNT_PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>F07516A4-BFD8-07A2-9999-D961FA6832D0</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D519EEEC-5B54-7A40-A75B-53CBED6E2E34"/>
+<colUsage columnID="64EFA77B-533E-2379-A67C-B4B626937D7A"/>
+<colUsage columnID="EFEAA3B7-041C-F0AA-C361-0AC4BEA56D3A"/>
+<colUsage columnID="9E6908BF-F24B-18A1-28EE-00D9CA9F5866"/>
+<colUsage columnID="62C19C2C-62B2-276C-4254-127701E909A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A62D200-001A-993C-C088-C8E142AB627F" name="PRD_DIS_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>9DC27502-3A4A-5739-2294-8D2863199D11</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D519EEEC-5B54-7A40-A75B-53CBED6E2E34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D60EA36A-FC78-6E4C-9D15-3072D700DB31" name="PRD_PR_FK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-26 14:33:09 UTC</createdTime>
+<generatorID>8D3C0E7B-7FE1-D87E-4CBD-1574AE0D26FF</generatorID>
+<ownerDesignName>A03_Final_DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64EFA77B-533E-2379-A67C-B4B626937D7A"/>
+<colUsage columnID="EFEAA3B7-041C-F0AA-C361-0AC4BEA56D3A"/>
+<colUsage columnID="9E6908BF-F24B-18A1-28EE-00D9CA9F5866"/>
+<colUsage columnID="62C19C2C-62B2-276C-4254-127701E909A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

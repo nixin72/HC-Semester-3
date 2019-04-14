@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=500, initial-scale=1">
+	<title>Heritage Albums</title>
+	<!--Imported scripts-->
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   
+		integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+		crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+		crossorigin="anonymous">
+	</script>
+	
+	<!--Imported stylesheets-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+	
+	<!--My stylesheets-->
+	<link rel="stylesheet" type="text/css" href="styles/heritageAlbums.css"></link>
+</head>
+<body>
+
+<!------------------------------------------------------------------------------------------------------------
+----------------------------------------------Bootstrap nav bar-----------------------------------------------
+------------------------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+			data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Heritage Albums</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul id="navbar-links" class="nav navbar-nav navbar-right">
+				<li><a href="addAlbum.html">Add Albums</a></li>
+				<li><a href="viewAlbums.html">View Albums</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!------------------------------------------------------------------------------------------------------------
+----------------------------------------------Main page content-----------------------------------------------
+------------------------------------------------------------------------------------------------------------->
+<div class="all">
+	<div id="content">
+		<h1><strong>View Albums</strong></h1>
+		<form id="displayForm">
+			<select class="list dropdown">
+				<option disabled selected>Chose a genre</option>
+				<option id="Country" value="Country">Country</option>
+				<option id="folk" value="folk">folk</option>
+				<option id="Jazz" value="Jazz">Jazz</option>
+				<option id="Oldies" value="Oldies">Oldies</option>
+				<option id="Pop" value="Pop">Pop</option>
+				<option id="Rap" value="Rap">Rap</option>
+				<option id="Rock" value="Rock">Rock</option>
+			</select>
+		</form>
+		
+		<br />
+		<hr />
+			<div id="output" style="text-align: center">
+		
+			</div>
+		<hr />
+	
+	
+		<div id="footer" class="desktop">
+			<hr />
+			<p><a href="addAlbum.html">Add albums</a>&nbsp; | &nbsp;<a href="viewAlbums.html">Find albums</a></p>
+		</div>
+	</div>
+</div>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js">
+	</script>
+	<script src="scripts/viewAlbums.js">
+	</script>
+</body>
+</html>
+
+
+
+<!--
+could be useful
+
+$("p").filter(":contains('Hello')").remove()
+
+-->

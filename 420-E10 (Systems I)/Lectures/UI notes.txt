@@ -1,0 +1,66 @@
+Navigation Design
+    - Error message
+    - Confirmation 
+    - Acknowledgment 
+    - Delay
+    - Help
+    
+Completion
+	- data type
+	- Sequence: health card number
+	- check digit: SIN number 
+	- Limit: Min OR Max
+	- Range: Min TO Max
+	- consistency: confirm email or password
+	
+Design principles
+	- Layout
+	- Content awareness: grouping related content together
+	- Aesthetics 
+	- User friendly
+		- novice likes it easy to learn
+		- expert likes it easy to use
+	- Consistency 
+	- Minimize user-effort
+	
+Path to completion:
+	- Primary goal for every form is completion
+	- Every input requires consideration and action 
+		- remove all unnessessary data requests
+		- Enable flexible data input 
+		- Enable smart defaults
+	- Provide a clear path
+	
+Layout-  Label Alignment: 
+	- Top, left or right aligned
+	TOP:
+		- When data is being collected is familiar
+		- Minimize time to completion
+		- Require move vertical space
+	RIGHT: 
+		- Clear association between label and field
+		- require less vertical space
+		- Fast completion times
+	LEFT: 
+		- When data required is unfamiliar
+		- Enables label scanning 
+		- less clear association between label and field
+		- require les vertical space 
+		- Changing label length may impair layout
+		
+	Label alignment practises:
+		- for reduced completion times and familiar data: TOP
+		- when veritace space is a constrain: RIGHT
+		- When data is unfamiliar: LEFT
+		
+Validation: 
+	Provide real time feedback
+	- validate inputs
+	- suggest valid inputs
+	
+	required fields
+		- indication of required fields is most useful when...
+			- there are lots of fields but few are required
+
+Progressive disclosure 
+	- Not all users require all available options all the time

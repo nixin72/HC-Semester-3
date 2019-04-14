@@ -1,0 +1,269 @@
+		
+/*
+ * These are the general stlyes applied to everything. They're
+ * overriden in the different media queries. This fits anything
+ * above 1200px, so the bootstrap extra large breakpoint. 
+ * Fits desktops and large laptop screens.
+*/
+		
+	html {
+		background-color: grey;
+		background-image: url("../images/background.jpg");
+		background-repeat: repeat; 	
+		color: black;
+	}
+	
+	body {
+		height:100%;
+		background-image: url("../images/background.jpg");
+		background-repeat: repeat;
+	}
+	
+	hr {
+		 border: 1px solid grey;
+	}
+	
+	.all {
+		width: 75%;
+		margin: auto;
+		min-height: 100%;
+		position: relative;
+	}
+		
+/*
+	specific to the viewAlbums.html page
+*/
+	#displayForm {
+		text-align: center;
+	}
+	
+	#output {
+		margin: 0%;
+	}
+	
+	
+/*
+	specific to the addAlbums.html page
+*/
+
+	#confirm {
+		display: none;
+	}
+	
+	#addForm {
+		padding-top: 7%;
+		width: 70%;
+		text-align: right;
+	}
+		
+	label {
+		width: 48%;	
+	}
+	
+	input {
+		width: 48%;
+		height: 25px;
+		border: 1px solid black;
+		border-radius: 3px;
+	}
+	
+	select {
+		width: 48%;
+		height: 30px;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+	
+	#button {
+		width: 28%;
+		height: 30px;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+	
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: white;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+		color: white;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+		color: white;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+		color: white;
+	}
+	
+/*
+	Top of page
+*/
+	#navbar {
+		background-color: #444;
+		border-color: #444;
+	}
+	
+/*
+	Middle of page
+*/
+	#content {
+		border: 1px solid grey;
+		border-radius: 5px;
+		padding-top: 7%;
+		
+		text-align: center;
+		background-color: #999;
+		opacity: .9;
+	}
+	
+	
+/*
+	bottom of page
+*/	
+		
+	#footer {
+		margin: auto;
+		text-align: center;
+		bottom: 0;
+		height: 100%;
+		width: 50%;
+	}
+	
+	#footer a {
+		color: black;
+	}
+	
+
+/*
+	mobile/desktop display
+*/
+	.mobile {
+		display: none!important;
+	}
+	
+	.desktop {
+		display: inline!important;
+	}
+
+	
+/*
+ * This is the media query for screens within the 
+ * bootstrap medium breakpoint. It fits screens from
+ * 1200px to 992px. Large tablets or small laptops.	
+*/
+	@media (max-width: 1200px) {
+		body {
+			background-color: grey;
+		}
+		
+	/*
+		mobile/desktop display
+	*/	
+		.mobile {
+			display: none!important;
+		}
+		
+		.desktop {
+			display: inline!important;
+		}
+	}
+		
+/*
+ * This is the media query for screens within the 
+ * bootstrap small breakpoint. It fits screens from
+ * 992 to 768px. Fits tablets.	
+*/
+	@media (max-width: 992px) {
+		body {
+			background-color: grey;
+		}
+		
+		#content {
+			margin-top: 0%;
+			padding-bottom:10%;
+		}
+		
+		.all {
+			width: 90%;
+			margin: auto;
+		}
+		
+		#output {
+			overflow: scroll;
+		}	
+		
+		input {
+			width: 70%;
+		}
+		
+		#addForm {
+			margin: auto;
+			width: 100%;
+			text-align: center;
+		}
+			
+		.dropdown {
+			text-align: center;
+			width: 70%;
+		}
+		
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			color: black;
+		}
+		::-moz-placeholder { /* Firefox 19+ */
+			color: black;
+		}
+		
+			
+	/*
+		mobile/desktop display
+	*/
+		.mobile {
+			display: inline!important;
+		}
+		
+		.desktop {
+			display: none!important;
+		}
+	}
+		
+/*
+ * This is the media query for screens within the 
+ * bootstrap extra small breakpoint. It fits screens 
+ * smaller than 768px. Meant for phones. 
+ *
+ * For some reason iPhones register in small breakpoint,
+ * not the extra small breakpoint. 
+*/
+	@media (max-width: 768px) {
+		body {
+			background-color: grey;
+		}
+		
+		input {
+			width: 70%;
+		}
+		select {
+			width: 70%;
+		}
+		
+		.all {
+			width: 100%;
+			margin: auto;
+		}
+		
+		#addForm {
+			text-align: center;
+		}
+		
+		
+	/*
+		mobile/desktop display
+	*/
+		.mobile {
+			display: inline!important;
+		}
+		
+		.desktop {
+			display: none!important;
+		}
+	}

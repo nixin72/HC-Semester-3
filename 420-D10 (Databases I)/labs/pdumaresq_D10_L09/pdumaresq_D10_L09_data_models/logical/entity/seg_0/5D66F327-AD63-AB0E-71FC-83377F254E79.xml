@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D66F327-AD63-AB0E-71FC-83377F254E79" name="Patient Service">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:57:21 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="appointment-date" id="39268842-BF6D-E282-7E67-9D35F6387771">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:59:39 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service-description" id="4F95FB69-66A0-02E6-684D-9AB685837D7D">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:59:49 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patient-number" id="32E439E6-2487-C210-2B6A-85CD2547CFC5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 20:04:58 UTC</createdTime>
+<generatorID>45988ABA-C2B7-5FD7-1611-DF01DF6784A0</generatorID>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A0CA9A29-2F5B-46E8-325E-2443C021F435</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95A3CD89-6D35-C19F-EBEC-D32122347188" name="Patient Service PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 20:01:47 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39268842-BF6D-E282-7E67-9D35F6387771</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="professor and schedule" directorySegmentName="seg_0" id="FDE2C0A8-28DB-DD97-D021-9DC71F2E97DA">
+<createdBy>1523066</createdBy>
+<createdTime>2016-09-07 15:43:36 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L05_partB</ownerDesignName>
+<engineerTo>
+<item key="D9C1560C-48B6-0AB0-C6D3-357887F6981F" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A977657-5D40-80A0-3071-55BAFF6B0F39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9228BC77-6DB2-7BBC-D305-C62A438E4056</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,12 @@
+{
+	"name": "L04PartD",
+	"version": "0.0.1",
+	"decription": "My first project file",
+	"repository": "none",
+	"license": "UNLICENSED",
+	
+	"dependencies": {
+		"underscore": "*",
+		"chalk": "*"
+	}
+}

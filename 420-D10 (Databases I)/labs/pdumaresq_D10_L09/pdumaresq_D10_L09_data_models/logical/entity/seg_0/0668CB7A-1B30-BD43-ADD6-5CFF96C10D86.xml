@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0668CB7A-1B30-BD43-ADD6-5CFF96C10D86" name="Service">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 19:57:42 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="service-code" id="13A455FD-AF45-41DA-3AC3-9A7F217B8659">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 20:01:20 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service-fee" id="E5999C5C-8B8B-F54C-14F2-F6BCB65CA901">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 20:01:26 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="appointment-date" id="CCEBD64C-9F50-1716-78AC-C7374320E2C5">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 20:11:54 UTC</createdTime>
+<generatorID>F8E49450-117E-CA0A-EC2A-93EE6B5FD0D0</generatorID>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<referedAttribute>39268842-BF6D-E282-7E67-9D35F6387771</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="993F8373-6F0E-3C9E-C06A-ABFC209C222E" name="Service PK">
+<createdBy>1523066</createdBy>
+<createdTime>2016-10-03 20:01:33 UTC</createdTime>
+<ownerDesignName>pdumaresq_D10_L09_data_models</ownerDesignName>
+<engineerTo>
+<item key="FB1B5200-D0AE-C895-E9C3-5167F388C683" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13A455FD-AF45-41DA-3AC3-9A7F217B8659</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

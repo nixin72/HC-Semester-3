@@ -1,0 +1,36 @@
+Presenting: Views
+- Dynamically create tables from real underlying tables
+- Remember all those reports from last lab???
+- Abstract the SQL away from the table user.
+
+Example: 
+	CREATE VIEW teacher_coordinator_view
+		(facultyid, NAME, phone, status)
+			AS (
+				SELECT.....
+			
+			)
+	
+	List the id, name, phone number and status of all faculty who are 
+	either a department coodinator or who are not teaching
+
+	You can create a 'fake' table based on a select query
+	
+Benefits: 
+	Users don't have to know the underlying tables	
+	Users can be restricted from knowing the actual database schema
+	Control what users can/cannot see
+	Abstract the SQL away from table user.
+	
+Actions:
+	Create - has a read-only option
+	Update 
+	Drop
+	Alter
+	
+Example:
+	The user of the new view can use it as any other table
+		SELECT * FROM teacher_coordinator_view
+		
+	
+	

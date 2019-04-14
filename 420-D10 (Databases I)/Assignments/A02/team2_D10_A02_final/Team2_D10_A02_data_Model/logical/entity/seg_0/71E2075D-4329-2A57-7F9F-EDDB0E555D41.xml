@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71E2075D-4329-2A57-7F9F-EDDB0E555D41" name="Pet Vaccinations">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:15:52 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Expiry-Date" id="53E1E647-A89D-A974-563A-28328A890C6F">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:16:07 UTC</createdTime>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pet-id" id="199E7C4D-7CB4-3F2C-041D-18D0BE1E7E25">
+<createdBy>Jeremy</createdBy>
+<createdTime>2016-10-04 02:20:01 UTC</createdTime>
+<generatorID>E00585DA-F31C-2041-C931-91805E95A482</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>C5E6734B-C9D7-E72C-986D-CB23054362EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vaccination-Type" id="8168175C-406B-A9DA-5674-83FCC00EA58E">
+<createdBy>6137954</createdBy>
+<createdTime>2016-10-05 14:35:18 UTC</createdTime>
+<comment>Rabies&lt;br/&gt;Parovirus&lt;br/&gt;Hepatitis&lt;br/&gt;Parainfluenza&lt;br/&gt;Distemper&lt;br/&gt;Bordetella</comment>
+<generatorID>1145B000-76F7-2D72-1DE5-80842AAD6A60</generatorID>
+<ownerDesignName>Team2_D10_A01_data_Model</ownerDesignName>
+<engineerTo>
+<item key="AF829EF0-AEC9-9EA2-0789-B004D7D0C906" value="true"/>
+</engineerTo>
+<referedAttribute>0C515ED4-1DDD-E685-D2B2-3DC87FE6943B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

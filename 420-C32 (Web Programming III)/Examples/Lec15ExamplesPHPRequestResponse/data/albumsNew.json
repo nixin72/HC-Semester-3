@@ -1,0 +1,58 @@
+{
+    "album": [
+      {
+        "-genre": "Folk",
+        "albumName": "Pink Moon",
+        "artist": "Nick Drake",
+        "company": "Island",
+        "condition": "G",
+        "year": "1972",
+        "price": "$21.00"
+      },
+      {
+        "-genre": "Folk",
+        "albumName": "The Bootleg Series Vol. 6: Bob Dylan Live 1964 - Concert at Philharmonic Hall",
+        "artist": "Bob Dylan",
+        "company": "Columbia",
+        "condition": "P",
+        "year": "1964",
+        "price": "$28.00"
+      },
+      {
+        "-genre": "Folk",
+        "albumName": "Once I Was an Eagle",
+        "artist": "Laura Marling",
+        "company": "Virgin",
+        "condition": "P",
+        "year": "2013",
+        "price": "$23.00"
+      },
+      {
+        "-genre": "Folk",
+        "albumName": "Torres",
+        "artist": "Torres",
+        "company": "Self-Released",
+        "condition": "M",
+        "year": "2013",
+        "price": "$20.00"
+      },
+      {
+        "-genre": "Folk",
+        "albumName": "Fairport Convention",
+        "artist": "Liege and Lief",
+        "company": "Island Records",
+        "condition": "M",
+        "year": "1967",
+        "price": "$31.00"
+      },
+      {
+        "-genre": "Folk",
+        "albumName": "Mr. Tambourine Man",
+        "artist": "The Byrds",
+        "company": "Columbia",
+        "condition": "P",
+        "year": "1965",
+        "price": "$18.00"
+      }
+    ]
+}
